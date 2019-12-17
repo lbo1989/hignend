@@ -13,14 +13,14 @@
 
 .storyUI{
     margin-top: 2%;
-    margin-left: -5%;
+    margin-left: -2%;
     overflow: hidden;
     text-align: center;
 
     display: inline-block;
     padding: 0px 20px;
     box-sizing: border-box;
-    color:#232323;
+
 
 }
 .storyUI li{
@@ -258,6 +258,38 @@ a{
 
 
 }
+.history{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+
+
+}
+
+
+.hsimg{
+    display: inline-block;
+    width: 80%;
+
+    margin: 0% 0% 10% 16%;
+
+}
+
+.hsimg img{
+    margin-left: 5%;
+    width: 35%;
+    height: 500px;
+
+}
+.text{
+    width: 20%;
+    position: absolute;
+    top:79%;
+    left:55%;
+    text-align: center;
+
+}
+
 
 
 
