@@ -1,0 +1,53 @@
+.intMainBox{
+
+    width:700px;
+    height: 235px;
+
+
+}
+
+
+.storyUI{
+
+    overflow: hidden;
+    text-align: center;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0px 20px;
+    box-sizing: border-box;
+
+}
+.storyUI li{
+    list-style: none;
+    display: inline-block;
+
+}
+.storyUI li a{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+.intMainBox{
+    padding: 70px 0px 30px;
+
+}
+
+
+.wideImg{
+    width:1200px;
+    height: 649px;
+}
+
+.wideImg #juimg{
+
+    width: 400px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+
+.wideImg #modelimg{
+    width: 600px;
+    height: 700px;
+}
