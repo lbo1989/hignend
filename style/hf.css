@@ -55,21 +55,21 @@ h1 a img{
     margin-left: 20px;
     margin-top: 20px;
 }
-nav {
+.navMenu {
      width: 70%;
      float: right;
  }
-nav li {
+.navMenu li {
      display: inline-block;
      height: 70px;
      line-height: 70px;
     margin-left: 33px;
 }
-nav li a{
+.navMenu li a{
     color: #444444;
     padding: 24px 30px;
 }
-nav li:hover a{
+.navMenu li:hover a{
     color: #f22c2d;
 }
 
