@@ -1,0 +1,57 @@
+.main_img_box{
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.main_img_box>img{
+    width: 100%;
+}
+.newEvent{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 60px;
+    color: #222;
+    text-align: center;
+}
+.neBox{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.neBox_inner{
+    width: 32%;
+    display: inline-block;
+    text-align: left;
+}
+.newEvent_txt{
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin: 20px 0px;
+}
+.ne_img{
+    width:100%;
+    border: 1px solid #e5e5e5;
+}
+.ne_txtOne{
+    font-size: 14px;
+    color: #8b714c;
+    margin: 0 20px 10px 10px;
+}
+.ne_txtTwo{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 0 20px 0 10px;
+    line-height: 28px;
+    color: #222;
+}
+.ne_txtThree{
+    font-size: 14px;
+    color: #888;
+    line-height: 24px;
+    padding: 0 20px 0 10px;
+}

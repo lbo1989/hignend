@@ -11,9 +11,14 @@ ul li {
  }
 a {
     text-decoration: none;
-    color: #232323;
 }
-
+a:hover {
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    margin: 15% 0%;
+}
 
 
 
