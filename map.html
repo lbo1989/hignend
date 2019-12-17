@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/hf.css">
+    <link rel="stylesheet" href="style/map.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=401735afc5a02a7a02b467a71dcddb34&libraries=services"></script>
+    <script src="js/common.js"></script>
+    <script src="js/map.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <!--header 영역-->
+        <header id="header">
+        </header>
+
+        <!--   이미지     -->
+        <div id="container">
+            <div class="main">
+                <img src="img/map_img.jpg">
+            </div>
+
+            <!--   메뉴바     -->
+            <div class="sel">
+                <h2>하이엔드 지점</h2>
+                <nav>
+                    <ul>
+                        <li id="seo"><a href="#">서초</a></li>
+                        <li id="jong"><a href="#">종로</a></li>
+                        <li id="shin"><a href="#">신촌</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--   정보 & 지도 -->
+            <div id="info1">
+                <h3>서초점 오시는 길</h3>
+                <div class="line"></div>
+                <h4>서울 서초구 강남대로 459<br>
+                    02-3486-9600</h4>
+                <div class="line"></div>
+            </div>
+            <div class="map1">
+                <div id="map"></div>
+                <div id="info">
+                    <p>
+                        <br>
+                        <b>무료주차 이용안내</b><br>
+                        • 5만원 이상 구매 : 1시간<br>
+                        • 10만원 이상 구매 : 2시간<br>
+                        • 15만원 이상 구매 : 3시간<br>
+                        * 파미에 주차장의 경우에만 3/5/10만원 이상 구매 시 1/2/3시간 무료주차 이용가능<br>
+                        * 다른 무료 주차권 또는 구매 영수증과 합산 불가 합니다.<br>
+                        * 무료 주차는 최대 3시간으로 추가 요금이 부과됩니다.<br>
+                        <br>
+                        <hr>
+                        <b>주차요금</b><br>
+                        • 10분당 : 1,000원<br>
+                        * 구매 영수증 미지참 시 주차요금이 부과됩니다.<br>
+                        * 전자 영수증으로도 확인이 가능합니다.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--footer영역-->
+        <footer id="footer">
+        </footer>
+    </div>
+</body></html>
