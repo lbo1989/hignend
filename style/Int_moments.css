@@ -32,7 +32,7 @@
 }
 .storyUI li a{
 
-
+    color:#232323;
     text-decoration: none;
     box-sizing: border-box;
     vertical-align: top;
@@ -43,21 +43,15 @@
 
 }
 
-a{
-    cursor: pointer;
 
-}
 
 .active{
-    padding: 0px 25px;
+    padding: 0px 5px;
     background-color: #6BBAC9;
 
 
 }
 
-.active a{
-    color:#eee;
-}
 
 
 .storyUI li:hover{
@@ -291,5 +285,154 @@ a{
 }
 
 
+.wide{
+    width: 1024px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.wide img{
+    width: 99%;
+    margin-top: -5%;
+
+}
+
+.his{
+    padding: 0px 25px;
+
+}
+
+.newtext{
+    width:25%;
+    text-align: center;
+    position: relative;
+    left:38%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+
+.campwrap{
+    width: 100%;
+    max-width: 1290px;
+    left:10%;
+    margin-bottom: 2%;
+    padding-left: 70px;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    position: relative;
+    height: 260px;
+}
+
+.camp{
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.imgs img{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 66%;
+
+    height: 260px;
+
+}
+.candy{
+    width: 100%;
+    max-width: 384px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    float: left;
+}
+
+.imgs{
+    width: 100%;
+    height: 260px;
+
+}
+
+.text{
+    width: 70%;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 28%;
+
+}
+
+.textbox{
+
+    text-align: left;
+    position: absolute;
+    top: -80%;
+
+
+}
+
+figure{
+    display: block;
+
+}
+figcaption{
+    display: block;
+}
+
+.cateview{
+    display: inline-block;
+    margin-bottom: 5%;
+    color: #6BBAC9;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.stit1{
+
+    line-height: 1.2;
+    font-size:27px;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    text-transform: capitalize;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+}
+
+
+.discover{
+
+     position: absolute;
+     bottom: -50%;
+     padding: 7px;
+     background-color: #6bbac9;
+     border: 1px solid #6bbac9;
+     color:#eee;
+     text-align: center;
+}
+
+.discover:hover{
+    color:#6bbac9;
+    background-color: #eee;
+
+}
+
+.cateview:hover{
+    color: #232323;
+
+}
+
+.msOver2:hover{
+    opacity: 0.7;
+    transition: opacity 350ms;
+
+}
 
 

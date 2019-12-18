@@ -32,7 +32,7 @@
 }
 .storyUI li a{
 
-
+    color:#232323;
     text-decoration: none;
     box-sizing: border-box;
     vertical-align: top;
@@ -284,9 +284,19 @@ a{
 .text{
     width: 20%;
     position: absolute;
-    top:79%;
+    top:74%;
     left:55%;
     text-align: center;
+
+}
+
+.logoimg1 img{
+    width: 300px;
+
+}
+
+.logoimg1:hover{
+    opacity: 0.3;
 
 }
 
