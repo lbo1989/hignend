@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="style/common.css" >
+    <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/hf.css" media="all and (min-width:950px)">
     <link rel="stylesheet" href="style/hfphone.css" media="all and (min-width:320px) and (max-width:949px)">
-    <link rel="stylesheet" href="style/main.css" >
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/common.js"></script>
-
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+   <script src="js/header.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -21,71 +22,123 @@
         </header>
         <div>
             <div class="main_img_box">
-                <img src="img/main01.jpg" alt="메인이미지1">
+                <!--<img src="img/main01.jpg" alt="메인이미지1">-->
+                <div id="brandVisual">
+                    <ul>
+                        <li class="visual_0"><a href="#">배너이미지 1</a></li>
+                        <li class="visual_1"><a href="#">배너이미지 2</a></li>
+                        <li class="visual_2"><a href="#">배너이미지 3</a></li>
+                    </ul>
+                </div>
+                <ul id="buttonList">
+                    <li class="on"><a href="#">배너1</a></li>
+                <li><a href="#">배너2</a></li>
+                    <li><a href="#">배너3</a></li>
+                </ul>
             </div>
         </div>
         <section>
-            <div class="newEvent">
-                <div>
-                    <h2>Highend New & Event</h2>
-                    <p class="newEvent_txt">고객님의 구매 패턴, 취향에 기반한 쇼핑 정보를 만나보세요.</p>
+            <div class="newEvent_box">
+                <h2>Highend New &amp; Event</h2>
+                <P class="newEvent_txt">고객님의 구매 패턴, 취향에 기반한 쇼핑 정보를 만나보세요.</P>
+                <div class="newEvent_inner">
+                    <div class="newEvent newEventFir">
+                        <a href="#">
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
+                        </a>
+                    </div>
+                    <div class="newEvent">
+                        <a href="#">
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
+                        </a>
+                    </div>
+                    <div class="newEvent">
+                        <a href="#">
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
+                        </a>
+                    </div>
                 </div>
-                <div class="neBox">
-                    <div class="neBox_inner">
+                <div class="newEvent_inner">
+                    <div class="newEvent newEventFir">
                         <a href="#">
-                            <img src="img/event01.jpg" alt="event01" class="ne_img">
-                            <p class="ne_txtOne">테마 | necklace</p>
-                            <p class="ne_txtTwo">#2. Gift for Me</p>
-                            <p class="ne_txtThree">2019.12.13(금) ~ 2019.12.25(수)</p>
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
                         </a>
                     </div>
-                    <div class="neBox_inner">
+                    <div class="newEvent">
                         <a href="#">
-                            <img src="img/event01.jpg" alt="event01" class="ne_img">
-                            <p class="ne_txtOne">테마 | necklace</p>
-                            <p class="ne_txtTwo">#2. Gift for Me</p>
-                            <p class="ne_txtThree">2019.12.13(금) ~ 2019.12.25(수)</p>
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
                         </a>
                     </div>
-                    <div class="neBox_inner">
+                    <div class="newEvent">
                         <a href="#">
-                            <img src="img/event01.jpg" alt="event01" class="ne_img">
-                            <p class="ne_txtOne">테마 | necklace</p>
-                            <p class="ne_txtTwo">#2. Gift for Me</p>
-                            <p class="ne_txtThree">2019.12.13(금) ~ 2019.12.25(수)</p>
+                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <p class="newEvent_txt1">테마 | necklace</p>
+                            <p class="newEvent_txt2">#2. Gift for Me</p>
+                            <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
                         </a>
                     </div>
                 </div>
             </div>
+
         </section>
         <section>
-            <h2>Highend Now</h2>
-            <div>
-                <img src="img/now01.jpg" alt="now이미지01">
-                <img src="img/now01.jpg" alt="now이미지01">
-                <img src="img/now01.jpg" alt="now이미지01">
-                <img src="img/now01.jpg" alt="now이미지01">
-            </div>
-            <div>
-                <p>highend 쇼핑 소식을 가장 빠르게 만나보세요!</p>
-                <ul>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                </ul>
+            <div class="now_box">
+                <h2>Highend Now</h2>
+                <div class="now_inner">
+                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg firstImg">
+                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
+                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
+                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
+                </div>
             </div>
         </section>
         <section>
             <h2>#Highend Product</h2>
-            <div>
-
+            <div class="banner_slider">
+                <div class="banner_nav_container">
+                    <ul id="banner_nav">
+                        <li><a href="#" rel="1">EARRING</a></li>
+                        <li><a href="#" rel="2">NECLKLACE</a></li>
+                        <li><a href="#" rel="3">RING</a></li>
+                    </ul>
+                </div>
+                <div class="banner_container">
+                    <div id="banner_content">
+                        <div class="ban_imgBox">
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                        </div>
+                        <div class="ban_imgBox">
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                            <a href="#"><img src="img/main_pro01.png" class="banner_img"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--footer영역-->
         <footer id="footer">
         </footer>
     </div>
-</body></html>
+
+
+</body>
+
+</html>
