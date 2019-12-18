@@ -1,4 +1,14 @@
 window.onload = function () {
+
+    let arr = document.getElementsByClassName('a');
+    for (let i = 0; i < arr.length; i++) {
+        arr[i].onclick = function () {
+            for (let i = 0; i < arr.length; i++) {
+                arr[i].style.backgroundColor = "white";
+            }
+            arr[i].style.backgroundColor = "#6BBAC9";
+        }
+    }
     let mapContainer = document.getElementById('map');
     let mapOption = {
         center: new kakao.maps.LatLng(37.503139, 127.024287),
@@ -8,7 +18,7 @@ window.onload = function () {
     let map = new kakao.maps.Map(mapContainer, mapOption);
 
     var marker = new kakao.maps.Marker({
-        position : mapOption.center
+        position: mapOption.center
     });
 
     marker.setMap(map);

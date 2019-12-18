@@ -21,16 +21,16 @@
 .sel li a{
     font-size: 20px;
     color: #444444;
-    padding: 16px 40px;
+    padding: 16px 55px;
 }
 
 .sel li:hover, .sel li a:hover{
-    background-color: silver;
-    color: #f22c2d;
+    background-color: #6BBAC9;
+    color: #232323;
 }
 
 h2 {
-    margin: 10px auto;
+    margin: 30px auto;
     font-size: 40px;
 }
 
