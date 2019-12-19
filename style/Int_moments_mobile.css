@@ -32,7 +32,7 @@
     margin-bottom: 10%;
     text-align: center;
     width: 100%;
-    display: block;
+    display: inline-block;
 
     box-sizing: border-box;
 
@@ -40,9 +40,9 @@
 }
 .storyUI li{
     list-style: none;
-    display: block;
+    display: inline-block;
 
-    padding: 0% 15px 0% 15px;
+    padding: 0% 50px 0% 50px;
 
 }
 .storyUI li a{
@@ -52,7 +52,7 @@
     box-sizing: border-box;
 
 
-    width: 30%;
+    width: 20%;
 
 
 
@@ -136,11 +136,12 @@ a{
     width: 50px;
 
 }
+.iconImg{
+    margin-top: 10%;
 
-.instaPhoto{
-        width: 360px;
-        margin: 0 auto;
-    }
+ }
+
+
 
 .instaPhoto li{
     list-style: none;
@@ -150,6 +151,10 @@ a{
     margin-left: 27%;
 
 }
+.instaPhoto{
+    width: 360px;
+    margin:0 auto;
+    }
 
 .msOver:hover{
     opacity: 0.7;
@@ -180,6 +185,7 @@ a{
 }
 
 .twhite{
+    width: 100%;
     color:#232323 !important;
 
 }
@@ -204,8 +210,8 @@ a{
 }
 
 #email{
-  width: 60%;
-  padding: 2%;
+  width: 50%;
+  padding: 10px;
 
 }
 
@@ -213,6 +219,8 @@ a{
     text-decoration: underline;
     color:black;
     padding:15%;
+
+
 }
 
 
@@ -233,7 +241,7 @@ a{
 
 }
 .history{
-    width: 360px;
+    width: 1024px;
     margin: 0px auto;
     padding: 0px;
 
@@ -243,47 +251,190 @@ a{
 
 .hsimg{
 
-    width: 360px;
+    width: 1024px;
     margin: 0 auto;
 
 }
 
-.hsimg img{
-    width: 100%;
 
-    position: relative;
+.introWrap{
+    width: 100%;
+    margin-bottom: 0% auto;
+    padding: 0px;
+}
+.textWrap{
+
+    width: 100%;
+    margin-bottom: 10%;
+
 
 
 }
-.text{
-
-    width: 360px;
-    position: relative;
-
-
+.texthead{
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
 
 }
 
-.logoimg1 img{
-    width: 70%;
+.introText{
+
+    width: 100%;
+
+    text-align: center;
+
 
 }
 
-.logoimg1:hover{
-    opacity: 0.3;
-
-}
-
-.iconImg{
+.newtext{
+    width:50%;
+    text-align: center;
+    position: relative;
+    left:27%;
+    margin-bottom: 5%;
     margin-top: 5%;
-    }
-.news{
-    width:300px;
-    margin: 0 auto;
-    padding: 0%;
+
+}
 
 
+.campwrap{
+    width: 100%;
+
+
+    margin-bottom: 5%;
+
+    box-sizing: border-box;
+    background-color: #fafafa;
+    position: relative;
+    height: 260px;
+}
+
+.camp{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+}
+
+.imgs img{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 66%;
+
+    height: 260px;
+
+}
+.candy{
+    width: 100%;
+    max-width: 384px;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: border-box;
+    float: left;
+}
+
+.imgs{
+    width: 100%;
+    height: 260px;
+
+}
+
+.text{
+    width: 60%;
+    position: relative;
+    float: right;
+
+
+
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 30%;
+
+
+}
+
+.textbox{
+    width: 90%;
+    text-align: left;
+    position: relative;
+
+
+
+
+}
+
+figure{
+    display: block;
+
+}
+figcaption{
+    display: block;
+}
+
+.cateview{
+    display: inline-block;
+    margin-bottom: 5%;
+    color: #6BBAC9;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.stit1{
+
+    line-height: 1.2;
+    font-size:27px;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+    text-transform: capitalize;
+    max-width: 600px;
+    width: 100%;
+    height: 50px;
+}
+
+
+.discover{
+
+     position: absolute;
+     bottom: -50%;
+     padding: 7px;
+     background-color: #6bbac9;
+     border: 1px solid #6bbac9;
+     color:#eee;
+     text-align: center;
+}
+
+.discover:hover{
+    color:#6bbac9;
+    background-color: #eee;
+
+}
+
+.cateview:hover{
+    color: #232323;
+
+}
+
+.msOver2:hover{
+    opacity: 0.7;
+    transition: opacity 350ms;
+
+}
+
+.wide{
+     width:100%;
+
     }
+
+.wide img{
+        width:360px;
+
+}
+
+
+
 
 }
