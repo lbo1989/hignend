@@ -1,47 +1,48 @@
-@media screen and (min-width: 360px){
+@media screen and (max-width:767px) and (min-width: 360px){
 #all_view{
-    width: 100%;
+    width: 360px;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0%;
 
 
  }
 
 .storyhead{
-
-    width: 360px;
-    margin-bottom: 5%;
-    margin-left: 47.9%;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
 
 
 }
 
 .intMainBox{
-    width: 360px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0%;
 
 }
 
 
 .storyUI{
 
-    margin-left: 5%;
-    overflow: hidden;
+
+
     margin-bottom: 10%;
     text-align: center;
-    width: 360px;
-    display: inline-block;
-    padding: 0px 20px;
+    width: 100%;
+    display: block;
+
     box-sizing: border-box;
 
 
 }
 .storyUI li{
     list-style: none;
-    display: inline-block;
+    display: block;
 
-
+    padding: 0% 15px 0% 15px;
 
 }
 .storyUI li a{
@@ -49,11 +50,11 @@
     color:#232323;
     text-decoration: none;
     box-sizing: border-box;
-    vertical-align: top;
-    letter-spacing: 1px;
-    min-width: 200px;
-    line-height: 20px;
-    padding: 20px;
+
+
+    width: 30%;
+
+
 
 }
 
@@ -63,7 +64,7 @@ a{
 }
 
 .active{
-    padding: 0px 25px;
+
     background-color: #6BBAC9;
 
 
@@ -71,6 +72,7 @@ a{
 
 .active a{
     color:#eee;
+
 }
 
 
@@ -88,11 +90,15 @@ a{
 
 .htit1{
 
-    line-height: 1.2;
+
     font-size:27px;
-    letter-spacing: 0.5px;
+
     font-weight: 200;
     text-transform: capitalize;
+    width: 100%;
+
+
+
 
 }
 
@@ -102,7 +108,7 @@ a{
 
 
 .conn{
-    width: 360px;
+    width: 100%;
     margin: 0 auto;
     padding: 0px;
 
@@ -118,6 +124,7 @@ a{
     margin: 0px 0 3%;
 }
 
+
 .snsIcon{
 
     margin-top: 3%;
@@ -126,17 +133,21 @@ a{
 }
 .snsIcon li{
     display: inline-block;
-    width: 6%;
+    width: 50px;
 
 }
 
+.instaPhoto{
+        width: 360px;
+        margin: 0 auto;
+    }
 
 .instaPhoto li{
     list-style: none;
-    display: inline-block;
-    width:15%;
+    display: block;
+    width: 150px;
     margin-top:5%;
-
+    margin-left: 30%;
 
 }
 
@@ -173,8 +184,8 @@ a{
 
 }
 .subscribe{
-    max-width: 1350px;
-    margin-left: 11%;
+
+
     width: 100%;
     margin-top:9%;
     padding: 70px 0px;
@@ -193,8 +204,8 @@ a{
 }
 
 #email{
-  width: 25%;
-  padding: 5px;
+  width: 60%;
+  padding: 2%;
 
 }
 
@@ -207,7 +218,7 @@ a{
 #subbtn{
     position: relative;
     padding: 15px 0px;
-    width: 10%;
+    width: 30%;
     top:30px;
     background-color: palevioletred;
     border: 1px solid palevioletred;
@@ -230,33 +241,31 @@ a{
 
 
 .hsimg{
-    display: inline-block;
-    width: 100%;
-    margin-left: 30%;
 
+    width: 360px;
+    margin: 0 auto;
 
 }
 
 .hsimg img{
+    width: 100%;
 
-    width: 50%;
-    height: 200px;
-
+    position: relative;
 
 
 }
 .text{
-    width: 90%;
-    position: relative;
-    text-outline: 65px;
 
-    left:10%;
+    width: 360px;
+    position: relative;
+
+
     text-align: center;
 
 }
 
 .logoimg1 img{
-    width: 300px;
+    width: 70%;
 
 }
 
@@ -265,7 +274,15 @@ a{
 
 }
 
+.iconImg{
+    margin-top: 5%;
+    }
+.news{
+    width:300px;
+    margin: 0 auto;
+    padding: 0%;
 
 
+    }
 
 }
