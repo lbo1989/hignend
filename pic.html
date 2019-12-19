@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/hf.css">
-    <link rel="stylesheet" href="style/pic.css">
+    <link rel="stylesheet" href="style/pic.css" media="all and (min-width:1024px)">
+    <link rel="stylesheet" href="style/picTablet.css" media="all and (min-width:768px) and (max-width:1023px)">
+    <link rel="stylesheet" href="style/picPhone.css" media="all and (min-width:360px) and (max-width:767px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src = "js/pic.js"></script>
@@ -21,10 +23,12 @@
 
 
             <div class = "mainvideo">
-                <video width="100%" height="500px" controls loop autoplay="autoplay" muted="muted">
+                <video  controls loop autoplay="autoplay" muted="muted">
                     <source src = "img/img_hm/mainvideo.mp4" type ="video/mp4">
                 </video>
             </div>
+
+           <div class ="pic-title"><p>Gallery</p><p>pictorial</p></div>
 
             <div class ="gallerylist">
                 <ul>
@@ -106,7 +110,7 @@
 
                     <ul class="medi">
                      <li>
-                               <video height = "396px" controls class ="video2" loop autoplay="autoplay" muted="muted">
+                               <video  controls class ="video2" loop autoplay="autoplay" muted="muted">
                                     <source src ="img/img_hm/subvideo.mp4" type ="video/mp4">
                                 </video>
                              <div>
