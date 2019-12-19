@@ -1,14 +1,8 @@
 window.onload = function () {
 
     let arr = document.getElementsByClassName('a');
-    for (let i = 0; i < arr.length; i++) {
-        arr[i].onclick = function () {
-            for (let i = 0; i < arr.length; i++) {
-                arr[i].style.backgroundColor = "white";
-            }
-            arr[i].style.backgroundColor = "#6BBAC9";
-        }
-    }
+    arr[0].style.backgroundColor = "#6BBAC9";
+
     let mapContainer = document.getElementById('map');
     let mapOption = {
         center: new kakao.maps.LatLng(37.503139, 127.024287),
@@ -16,6 +10,13 @@ window.onload = function () {
     };
 
     let map = new kakao.maps.Map(mapContainer, mapOption);
+
+    let mapTypeControl = new kakao.maps.MapTypeControl();
+    map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
+
+    let zoomControl = new kakao.maps.ZoomControl();
+
+    map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
 
     var marker = new kakao.maps.Marker({
         position: mapOption.center
@@ -53,6 +54,10 @@ window.onload = function () {
             }
         });
         document.getElementById('info1').innerHTML = '<h3>서초점 오시는 길</h3><div class="line"></div><h4>서울 서초구 강남대로 459<br>☎02-3486-9600</h4><div class="line"></div>';
+        for (let i = 0; i < arr.length; i++) {
+            arr[i].style.backgroundColor = "white";
+        }
+        this.style.backgroundColor = "#6BBAC9";
     }
 
     document.getElementById('jong').onclick = function () {
@@ -67,6 +72,10 @@ window.onload = function () {
             }
         });
         document.getElementById('info1').innerHTML = '<h3>종로점 오시는 길</h3><div class="line"></div><h4>종로구 종로 69 YMCA빌딩 7층<br>☎02-722-1481</h4><div class="line"></div>';
+        for (let i = 0; i < arr.length; i++) {
+            arr[i].style.backgroundColor = "white";
+        }
+        this.style.backgroundColor = "#6BBAC9";
     }
 
     document.getElementById('shin').onclick = function () {
@@ -82,5 +91,10 @@ window.onload = function () {
             }
         });
         document.getElementById('info1').innerHTML = '<h3>신촌점 오시는 길</h3><div class="line"></div><h4>마포구 백범로 23 구프라자 3층<br>☎02-707-1480</h4><div class="line"></div>';
+        for (let i = 0; i < arr.length; i++) {
+            arr[i].style.backgroundColor = "white";
+        }
+        this.style.backgroundColor = "#6BBAC9";
     }
+
 }
