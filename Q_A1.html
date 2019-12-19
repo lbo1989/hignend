@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0 minimum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/hf.css">
     <link rel="stylesheet" href="style/common.css">
-    <link rel="stylesheet" href="style/Q_A1.css">
+    <link rel="stylesheet" href="style/Q_A1.css" media="screen and (min-width:1024px)">
+     <link rel="stylesheet" href="style/Q_A1_table.css" media="screen and (max-width:1023px) and (min-width:768px)">
+    <link rel="stylesheet" href="style/Q_A1_mobile.css" media="screen and (max-width:767px) and (min-width:360px)">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/faqservice.js"></script>
 </head>
 <body>
-    <div id="wrap">
+
         <header id="header">
 
         </header>
+        <div id="all_view">
          <div class="banner">
              <img class="bnimg" src="img/j_img/a_s/afterserviceimg.PNG" alt="afterservice">
 
@@ -33,7 +36,7 @@
             </div>
             <div class="opinion">
                 <div class="inner">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하이엔드를 이용하시는 고객님들이
+                    하이엔드를 이용하시는 고객님들이
                     <br>
                     가장 궁금해하시는 질문과 답변을 안내합니다.
 
@@ -124,11 +127,11 @@
 
 
 
-
+        </div>
        <footer id="footer">
 
        </footer>
 
-    </div>
+
 </body>
 </html>
