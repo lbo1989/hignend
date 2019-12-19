@@ -48,11 +48,12 @@
 .active{
     padding: 0px 5px;
     background-color: #6BBAC9;
-
-
 }
 
-
+.his a:link
+{
+    color: white;
+}
 
 .storyUI li:hover{
 
