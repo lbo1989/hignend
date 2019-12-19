@@ -1,23 +1,20 @@
-@media screen and (min-width : 1024px) {
-    .cs-main {
-        width: 100%;
-        margin: 100px auto 0px;
 
+@media screen and (min-width : 768px){
+     .cs-main {
+         display: none;
     }
-
-    .cs-main div {
-        text-align: center;
-        width: 100%;
-    }
-
     .thum01 img{
-      width: 100%;
+     display: none;
     }
 
     .tbthum {
-        display: none;
+        width: 100%;
+        margin: 100px auto;
     }
 
+    .tbthum img{
+        width: 100%;
+    }
     .mbthum {
         display: none;
     }
@@ -35,17 +32,12 @@
     }
 
 
-    .cs-slider {
-        width: 35%;
-        margin: 0 auto;
+    .cs-slider{
+        width: 50%;
+        margin: 0px auto;
     }
-
-
-    .bxslider img {
-        width: 94%;
-        padding: 20px;
-        text-align: center;
-        background-color: white;
+    .bxslider img{
+        width: 100%;
     }
 
 
@@ -69,12 +61,13 @@
 
     .bgtest3 {
         width: 100%;
-        height: 400px;
+       /* height: 400px;
         display: inline-block;
         background-color: ;
         position: relative;
         z-index: 2;
-        bottom: 404px;
+        bottom: 404px;*/
+        display: none;
     }
 
 
@@ -83,7 +76,7 @@
     }
 
     .bgtest2:nth-child(2) {
-        background: url(../img/csbackground.jpg) white 0 0 / 85% auto;
+        background: url(../img/csbackground.jpg) white 0 0 / 100% auto no-repeat;
         background-attachment: fixed
     }
 
@@ -91,28 +84,10 @@
         background: white;
     }
     .bgalltitle{
-        display: inline-block;
-        float: right;
-        height: 400px;
 
-        background-color : rgba(255,225,199);/*색상 변경할것 베이지 계열*/
+        display: none;
 
     }
-    .bgtitle {
-        text-align: right;
-        font-size: 30px;
-        font-weight: bold;
-        margin: 100px 90px 30px 10px;
-
-    }
-
-    .bgsubtitle {
-        font-size: 1em;
-        text-align: right;
-        margin-right: 70px;
-
-    }
-
 
 
 
@@ -182,7 +157,5 @@
     .iconImg {
         margin-bottom: 100px;
     }
+
 }
-
-
-
