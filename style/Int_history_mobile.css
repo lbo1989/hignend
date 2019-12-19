@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 360px){
 #all_view{
     width: 100%;
     margin: 0 auto;
@@ -9,7 +9,7 @@
 
 .storyhead{
 
-    width: 1024px;
+    width: 360px;
     margin-bottom: 5%;
     margin-left: 47.9%;
 
@@ -17,7 +17,7 @@
 }
 
 .intMainBox{
-    width: 1024px;
+    width: 360px;
     margin: 0 auto;
     padding: 0px;
 
@@ -30,7 +30,7 @@
     overflow: hidden;
     margin-bottom: 10%;
     text-align: center;
-    width: 1024px;
+    width: 360px;
     display: inline-block;
     padding: 0px 20px;
     box-sizing: border-box;
@@ -102,7 +102,7 @@ a{
 
 
 .conn{
-    width: 1024px;
+    width: 360px;
     margin: 0 auto;
     padding: 0px;
 
@@ -117,7 +117,6 @@ a{
     font-weight: 300;
     margin: 0px 0 3%;
 }
-
 
 .snsIcon{
 
@@ -222,7 +221,7 @@ a{
 
 }
 .history{
-    width: 100%;
+    width: 360px;
     margin: 0px auto;
     padding: 0px;
 
@@ -233,22 +232,25 @@ a{
 .hsimg{
     display: inline-block;
     width: 100%;
+    margin-left: 30%;
 
-    margin: 0% 0% 10% 16%;
 
 }
 
 .hsimg img{
-    margin-left: -35%;
-    width: 25%;
-    height: 500px;
+
+    width: 50%;
+    height: 200px;
+
+
 
 }
 .text{
-    width: 20%;
-    position: absolute;
-    top:48%;
-    left:57%;
+    width: 90%;
+    position: relative;
+    text-outline: 65px;
+
+    left:10%;
     text-align: center;
 
 }
