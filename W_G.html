@@ -13,7 +13,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
 <!--W_G.css-->
-    <link rel="stylesheet" href="./style/W_G.css">
+    <link rel="stylesheet" href="./style/W_G.css" media="all and (min-width:1024px)">
+    <link rel="stylesheet" href="./style/W_G_Tablet.css" media="all and (min-width:768px) and (max-width:1023px)">
+    <link rel="stylesheet" href="./style/W_G_Phone.css" media="all and (max-width:767px)">
+
+
+
 <!--slide css-->
      <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 <!--    // Add the new slick-theme.css if you want the default styling-->
@@ -21,8 +26,10 @@
 
 <script>
     $(document).ready(function(){
-        $('#g_main h2').fadeIn(3000);
-        $('#g_main img').fadeIn(4000);
+
+            $('#g_main h2').fadeIn(3000);
+            $('#g_main img').fadeIn(4000);
+
     });
     </script>
 </head>
@@ -42,7 +49,7 @@
 <!--slide단-->
        <div id="slide">
         <div class="visual">
-          <div><a href="#"></a><img src="./img/Watches/slide1.jpg" alt="시계1"></div>
+          <div><a href="#"><img src="./img/Watches/slide1.jpg" alt="시계1"></a></div>
           <div class="model">
           <p>
               모델 명 : ABC123-01. <br>
@@ -102,7 +109,6 @@
                     </a>
                     <p>모델명 : ABC123-01</p>
                 </div>
-
                 <div class="p_w">
                     <a href="#">
                         <img src="./img/Watches/1-2.png" alt="시계2">
@@ -166,6 +172,12 @@
             $(document).ready(function(){
                 $('.p_w img').on('mouseenter',function(){
                     $(this).parent().next().fadeIn(400);
+
+                });
+
+                $('.p_w img').on('focus',function(){
+                    $(this).parent().next().fadeIn(400);
+
                 });
 
                 $('.p_w img').on('mouseout',function(){

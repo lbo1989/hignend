@@ -11,7 +11,7 @@
             color: white;
             font-size: 45px;
             text-align: center;
-        }s
+        }
         #g_main h2{
             position: relative;
             top: 20px;
@@ -49,9 +49,9 @@
         }
 
         hr{
-
             margin: 100px;
         }
+
         /*product단*/
         #w_2_sec{
             margin: 0px;

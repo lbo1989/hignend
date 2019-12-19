@@ -1,0 +1,55 @@
+#g_main{
+    margin: 0px;
+}
+#g_main div{
+    width: 100%; height: 354px;
+    background-image: url(../img/Watches/gentlemain.jpg);
+    margin: 0 auto;
+    text-align: center;
+}
+#g_main h2{
+    color: white;
+    position: relative;
+    top: 5%;
+    font-size: 60px;
+    display: none;
+}
+#g_main img{
+
+    width:184px;
+    border: 3px double white;
+    margin:5% auto;
+    display: none;
+}
+#slide{
+    width: 100%;
+    background-color: black;
+}
+.visual img{
+    margin: 10%;
+    width: 307px;
+}
+.model{
+    color: white;
+}
+.model p{
+    margin: 25% 10%;
+}
+
+hr{ margin: 100px;}
+
+ .product{
+            width: 100%; height:auto;
+            margin: 0px auto;
+             text-align: center;
+        }
+.p_w{
+            display: inline-block;
+            border: 3px double black;
+            margin: 45px;
+
+        }
+.p_w img{
+            width: 150px;
+            padding-bottom: 10px;
+        }
