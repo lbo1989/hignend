@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/hf.css" media="all and (min-width:950px)">
     <link rel="stylesheet" href="style/hfphone.css" media="all and (min-width:320px) and (max-width:949px)">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/main.css">
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-   <script src="js/header.js"></script>
-  <script src="js/common.js"></script>
-  <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.adipoli.min.js"></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@
                 </div>
                 <ul id="buttonList">
                     <li class="on"><a href="#">배너1</a></li>
-                <li><a href="#">배너2</a></li>
+                    <li><a href="#">배너2</a></li>
                     <li><a href="#">배너3</a></li>
                 </ul>
             </div>
@@ -44,7 +45,9 @@
                 <div class="newEvent_inner">
                     <div class="newEvent newEventFir">
                         <a href="#">
+                           <div class="sample_image">
                             <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
                             <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
@@ -58,6 +61,7 @@
                             <p class="newEvent_txt3">2019.12.13(금) ~ 2019.12.25(수)</p>
                         </a>
                     </div>
+
                     <div class="newEvent">
                         <a href="#">
                             <img src="img/event01.jpg" alt="event01" class="newEvent_img">
@@ -67,6 +71,7 @@
                         </a>
                     </div>
                 </div>
+                <div class="pa"></div>
                 <div class="newEvent_inner">
                     <div class="newEvent newEventFir">
                         <a href="#">
@@ -99,11 +104,115 @@
         <section>
             <div class="now_box">
                 <h2>Highend Now</h2>
+                <div class="now_box_inner">
+                <div class="now_inner now_inner_first">
+                  <img src="img/now01.jpg" alt="now01" class="now_image ">
+                  <div class="overlay">
+                    <div class="overlay_text">
+                        <div class="now_copy_y">YOUTUBE</div>
+                        <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                        <div class="now_copy_more">more</div>
+                    </div>
+                  </div>
+                </div>
                 <div class="now_inner">
-                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg firstImg">
-                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
-                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
-                    <img src="img/now01.jpg" alt="now이미지01" class="nowImg">
+                  <img src="img/now01.jpg" alt="now01" class="now_image">
+                  <div class="overlay">
+                    <div class="overlay_text">
+                        <div class="now_copy_y">YOUTUBE</div>
+                        <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                        <div class="now_copy_more">more > </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="now_inner">
+                  <img src="img/now01.jpg" alt="now01" class="now_image">
+                  <div class="overlay">
+                    <div class="overlay_text">
+                        <div class="now_copy_y">YOUTUBE</div>
+                        <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                        <div class="now_copy_more">more</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="now_inner">
+                  <img src="img/now01.jpg" alt="now01" class="now_image">
+                  <div class="overlay">
+                    <div class="overlay_text">
+                        <div class="now_copy_y">YOUTUBE</div>
+                        <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                        <div class="now_copy_more">more</div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <!--<div class="now_inner_box">
+                    <div class="now_inner_img now_img_first" id="now_mouseOne">
+                        <img src="img/now01.jpg" alt="now이미지01" class="">
+                    </div>
+                    <div class="now_inner_copy" id="now_mouse_copyOne">
+                        <a href="#">
+                            <div class="copy_inner">
+                                <div class="now_copy_y">YOUTUBE</div>
+                                <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                                <div class="now_copy_more">more</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="now_inner_img" >
+                        <img src="img/now01.jpg" alt="now이미지01" class=""id="now_mouseTwo">
+                    </div>
+                    <div class="now_inner_copy" id="now_mouse_copyTwo">
+                        <a href="#">
+                            <div class="copy_inner">
+                                <div class="now_copy_y">YOUTUBE</div>
+                                <span class="now_copy_txt">1만여 개의 전구로 장식된 대형 트리를 만나보세요!</span>
+                                <div class="now_copy_more">more</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="now_inner_img">
+                        <img src="img/now01.jpg" alt="now이미지01" class="">
+                    </div>
+
+                    <div class="now_inner_img">
+                        <img src="img/now01.jpg" alt="now이미지01" class="">
+                    </div>
+                </div>-->
+                <div class="mainIcon_box">
+                    <p class="newEvent_txt">hiehend 쇼핑 소식을 가장 빠르게 만나보세요!</p>
+                    <ul class="mainIcon">
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https//www.facebook.com">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        </li>
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https//www.twiter.com">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        </li>
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https//www.instagram.com">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        </li>
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https://drive.google.com">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        </li>
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https//www.youtube.com">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        </li>
+                        <li class="mainIcon_li">
+                        <a target="_blank" href="https://www.slideshare.net">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
