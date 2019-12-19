@@ -1,0 +1,59 @@
+#container {
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+}
+
+#imgs,
+#content {
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+#link {
+    text-align: right;
+}
+
+#content {
+    text-align: left;
+}
+
+#link span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#link, #link span a {
+    color: #8A8A8A;
+    font-size: 13px;
+}
+
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    border: 1px solid #8A8A8A;
+}
+
+.bx-wrapper{
+    min-width: 500px;
+}
+
+p{
+    color: #8A8A8A;
+}
+
+input {
+    padding: 5px;
+    border: 1px dolid #8A8A8A;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#trans{
+    background-color: green;
+    color: white;
+}
