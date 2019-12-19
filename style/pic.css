@@ -1,8 +1,10 @@
+
+
 .gallerylist{
     max-width: 1024px;
     width:100%;
-    margin: 0 auto;
-    margin-bottom: 150px;
+    margin: 150px auto;
+
 }
 
 .gallerylist ul{font-size: 0;}
