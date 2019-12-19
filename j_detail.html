@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/hf.css">
-    <link rel="stylesheet" href="style/j_detail.css">
+    <link rel="stylesheet" href="style/j_detail.css" media="all and (min-width:1024px)">
+    <link rel="stylesheet" href="style/j_detailTablet.css" media="all and (min-width:768px) and (max-width:1023px)">
+    <link rel="stylesheet" href="style/j_detailPhone.css" media="all and (min-width:320px) and (max-width:767px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -22,10 +25,13 @@
 
         <!-- 화면 몸통 -->
         <div id="container">
-            <div class="slider">
-                <img src="img/ear1.jpg">
-                <img src="img/ear2.jpg">
-                <img src="img/ring1.jpg">
+            <div class="imgs">
+                <div class="slider">
+                    <img src="img/ear1.jpg">
+                    <img src="img/ear2.jpg">
+                    <img src="img/ring1.jpg">
+                </div>
+                <div></div>
             </div>
             <div id="content">
                 <div id="link">

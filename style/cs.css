@@ -1,87 +1,74 @@
-.cs_main img{
+.cs-main {
     width: 100%;
-}
-/*메인 이미지*/
+   /* margin: 0px auto;*/
 
-.cs_main p{
-     color : #222;
-    font-size: 2em;
+    /*background-color: black;*/
+}
+
+.cs-main div {
+    display: inline-block;
+    width: 24.7%;
+}
+
+.thum01 {
+    margin: 0px;
+}
+/*
+.thum02{
+    margin: 0px;
+}
+.thum03{
+    margin: 0px;
+}
+.thum04{
+    margin-left: 20px;
+}
+*/
+
+.cs-head p {
+    font-size: 3em;
     text-align: center;
-    padding-top: 110px;
-    margin-bottom: 80px;
-    /*메인 글자 폰트, 색상 사이즈 다 변경할 것*/
+    margin: 100px 0px 150px 0px;
 }
-
-.explanation{
-    border: 2px solid silver;
-    width: 70%;
+.cs-menubar p{
     text-align: center;
-    padding-bottom: 50px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+
+.cs-slider{
+    width: 35%;
     margin: 0 auto;
-    min-height: 600px;
-    max-height: 700px;
 }
-
-.explanation h2{
-    margin-top: 80px;
-}
-.explanation p{
-    padding: 2% 2%;
-    line-height: 40px;
-}
-
-#csbtn{
- width: 150px;
-height: 40px;
-background-color: pink;
-font-size: 14px;
-font-weight: bold;
-margin-top : 120px;
+/*.bxslider{
+    width:%;
+}*/
+.bxslider img{
+    width: 94%;
+    padding: 20px;
+    background-color: pink;
 }
 
 
 
-/*시리얼 가입창*/
-.csjoin{
-    border: 1px solid silver;
-    width :35%;
-    margin: 0 auto;
-    min-width: 300px;
-    position: relative;
-    bottom : 500px;
-    min-height: 400px;
-    display: none;
-    background-color: antiquewhite;
 
-
-}
-.csjoin h3{
-    line-height: 80px;
-}
-#serialnum{
-    margin: 25px;
-    padding: 9px;
-}
-#serialnext , #backpg{
-    margin-top: 40px;
-}
-
-
-
-/*이 아래로는 pc버전에서만 쓸 것 그 외 모바일 태블릿에선 삭제*/
-.bgtest{
+.bgtest {
     height: 350px;
 }
-.bgtest1{
+
+.bgtest1 {
     height: 100px;
 }
-.bgtest2{
+
+.bgtest2 {
     height: 400px;
     width: 80%;
     display: inline-block;
 }
-.bgtest3{
-    width: 19%;
+
+.bgtest3 {
+    width: 19.5%;
     display: inline-block;
     border: 1px solid bisque;
     background-color: bisque;
@@ -90,18 +77,27 @@ margin-top : 120px;
     right: 9px;
     padding: 170px 0px;
 }
-.bgtest
-.bgtest:nth-child(1) {background: white;}
-.bgtest2:nth-child(2){background : url(../img/csbackground.jpg) white 0 0 / 85% auto;
-background-attachment: fixed}
-.bgtest1:nth-child(3){background: white;}
 
-.bgtitle{
-    text-align:left;
+.bgtest .bgtest:nth-child(1) {
+    background: white;
+}
+
+.bgtest2:nth-child(2) {
+    background: url(../img/csbackground.jpg) white 0 0 / 85% auto;
+    background-attachment: fixed
+}
+
+.bgtest1:nth-child(3) {
+    background: white;
+}
+
+.bgtitle {
+    text-align: left;
     font-size: 30px;
     font-weight: bold;
 }
-.bgsubtitle{
+
+.bgsubtitle {
     font-size: 1em;
     text-align: center;
 }
@@ -110,7 +106,7 @@ background-attachment: fixed}
 
 
 /*--Connect with high-end--*/
-.conn{
+.conn {
     width: 100%;
     position: relative;
     padding: 0px;
@@ -119,40 +115,41 @@ background-attachment: fixed}
 
 }
 
-.smalltitle{
+.smalltitle {
     padding: 0;
     font-size: 1.5em;
     font-weight: 300;
     margin: 0px 0 3%;
 }
 
-.snsIcon{
+.snsIcon {
 
     margin-top: 2%;
-    list-style:none;
+    list-style: none;
 
 }
-.snsIcon li{
+
+.snsIcon li {
     display: inline-block;
     width: 3%;
 
 }
 
 
-.instaPhoto li{
+.instaPhoto li {
     list-style: none;
     display: inline-block;
-    width:13%;
-    margin-top:3%;
+    width: 13%;
+    margin-top: 3%;
 
 
 }
 
-.msOver:hover{
+.msOver:hover {
     opacity: 0.7;
 }
 
-.instaPhoto .jw{
+.instaPhoto .jw {
 
     display: inline-block;
 
@@ -160,15 +157,17 @@ background-attachment: fixed}
     height: 100px;
     border: 1px solid silver;
 
-     background-color: antiquewhite;
+    background-color: antiquewhite;
 }
-.instaPhoto .watch{
+
+.instaPhoto .watch {
     display: inline-block;
-    width:50%;
+    width: 50%;
     height: 100px;
     border: 1px solid silver;
-     background-color: antiquewhite;
+    background-color: antiquewhite;
 }
-.iconImg{
+
+.iconImg {
     margin-bottom: 100px;
 }
