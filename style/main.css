@@ -101,6 +101,7 @@ h2{
     line-height: 24px;
 }
 .sample_image{
+    height: 158px;
      overflow: hidden;
     border: 1px solid #ececec;
 }
@@ -151,6 +152,7 @@ cursor: pointer;
 .now_image {
   display: block;
   width: 100%;
+    height: 369px;
 
 }
 .now_inner.now_inner_first{
@@ -204,19 +206,8 @@ cursor: pointer;
     text-align: left;
     padding: 0px 0px 0px 15px;
 }
-
-/*product*/
-.banner_slider{
-    width: 1024px;
-    margin: 0 auto;
-}
-.banner_container{
-    margin: 0 10px;
-    border: 1px solid #ececec;
-}
-.banner_img{
-    width: 30%;
-    display: inline-block;
+.mainIcon{
+    text-align: center;
 }
 .mainIcon_box{
     width:1024px;
@@ -227,7 +218,31 @@ cursor: pointer;
     display: inline-block;
 }
 
-
+/*product*/
+.main_pro{
+    width: 1024px;
+    margin: 0 auto;
+}
+.main_pro_tit{
+    margin: 20px 0;
+}
+.main_pro_titli{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.main_pro_imgbox{
+    margin: 0 10px;
+    border: 1px solid #ececec;
+}
+main_pro_imgbox{
+    clear: both;
+}
+.banner_img{
+    width: 32.9%;
+    display: inline-block;
+}
 
 
 

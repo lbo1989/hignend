@@ -47,41 +47,6 @@ $(document).ready(function(){
 		nextEl.css({left:'100%'}).stop().animate({left:0});
 		current = i ;
 	}
-    /*now*/
-    // Fadeing out displayed paragraphs
-    /*$(".newEvent_img").hover(function(){
-        $("p").fadeOut();
-    });
-
-    // Fading in hidden paragraphs
-    $(".in-btn").hover(function(){
-        $("p").fadeIn();
-    });*/
-
-    /*new부분*/
-/*     $("#now_mouseOne").on('click', function(){
-        $("#now_mouse_copyOne").slideToggle();
-     });
-    $("#now_mouseTwo").on('click', function(){
-        $("#now_mouse_copyTwo").slideToggle();
-     });*/
-
-   /* $("#now_mouse").on('mouseenter', function(){
-        $("#now_mouse_copy").slideToggle("slow").delay(200);
-    });*/
-    /*$("#now_mouse").hover(function(){
-        $("#now_mouse_copy").slideToggle();
-    });*/
-
-
-   /* $("#now_mouse").on('mouseout', function(){
-        $("#now_mouse_copy").slideDown();
-    });*/
-    /*$("#now_mouse").on('mouseleave', function(){
-        $("#now_mouse_copy").slideUp("slow");
-    });*/
-    /*$("#now_mouse").hover(function () {
-    $("#now_mouse_copy").slideToggle("slow");*/
 
 });
 
