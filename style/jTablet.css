@@ -4,7 +4,7 @@
  }
 
 .j_mainimg{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@
 
 .j{
     display: inline-block;
-    width: 32%;
+    width: 45%;
     margin-top:  2%;
     margin-bottom: 5%;
 }
@@ -26,16 +26,20 @@
 }
 div .j_body{
     text-align: center;
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
 
 }
 div .j_linetop{
-    width: 1024px;
+    width: 100%;
     color: #A6A6A6;
     border-bottom: 2px solid silver;
     text-align: center;
     margin: 0 auto;
+}
+
+.j_linetop h4{
+    font-size: 16px;
 }
 
 div .j_linebo{
@@ -71,13 +75,13 @@ li{
     list-style:none;
 }
 .subject{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 200;
     padding-left: 7%;
     padding: 3%
 }
 .content{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     background-color: ivory;
     padding-top: 4%;
@@ -99,7 +103,7 @@ li{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:100%;border-bottom:2px solid #A6A6A6;border-bottom:2px solid #A6A6A6;background:#fff;z-index:100; margin: 0 auto;
+    ;width:80%;border-bottom:2px solid #A6A6A6;border-bottom:2px solid #A6A6A6;background:#fff;z-index:100; margin: 0 auto;
 }
 #gnb_j  li{
     float:left;width:24.98%;
@@ -175,7 +179,7 @@ li{
     display: inline-block;
 
     width: 50%;
-    height: 100px;
+    height: 75px;
     border: 1px solid silver;
 
      background-color: antiquewhite;
@@ -183,7 +187,7 @@ li{
 .instaPhoto .watch{
     display: inline-block;
     width:50%;
-    height: 100px;
+    height: 75px;
     border: 1px solid silver;
      background-color: antiquewhite;
 }

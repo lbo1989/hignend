@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0">
 
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/Int_history.css">
+    <link rel="stylesheet" href="style/Int_history.css" media="screen and (min-width:1024px)">
     <link rel="stylesheet" href="style/hf.css">
     <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/Int_history_table.css" media="screen and (max-width:1023px) and (min-width:768px)">
+    <link rel="stylesheet" href="style/Int_history_mobile.css" media="screen and (max-width:767px) and (min-width:360px)">
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
 </head>
 <body>
-   <div id=warp>
+
    <header id="header">
 
    </header>
+   <div id="all_view">
      <div class="storyhead">
        <h1 class="htit1">Brand Stroy</h1>
     </div>
@@ -146,6 +150,8 @@
 
     </div>
 
+
+    </div>
     <div class="subWrap">           <!-- 뉴스레터 가입 폼 -->
         <div class="subscribe twhite">
             <div id="subInput">
@@ -180,9 +186,8 @@
 
 
     </div>
-
     <footer id="footer"></footer>
-    </div>
+
 
 </body>
 </html>

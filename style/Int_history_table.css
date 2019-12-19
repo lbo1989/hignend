@@ -1,6 +1,6 @@
-@media screen and (min-width: 1024px){
+@media screen and (max-width:1023px) and (min-width: 768px){
 #all_view{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
     padding: 0%;
 
@@ -133,7 +133,7 @@ a{
 }
 .snsIcon li{
     display: inline-block;
-    width: 100px;
+    width: 80px;
 
 }
 
@@ -141,7 +141,7 @@ a{
 .instaPhoto li{
     list-style: none;
     display: inline-block;
-    width: 200px;
+    width: 130px;
     margin-top:5%;
 
 
@@ -176,7 +176,6 @@ a{
 }
 
 .twhite{
-    width: 100%;
     color:#232323 !important;
 
 }
@@ -202,7 +201,7 @@ a{
 
 #email{
   width: 25%;
-  padding: 10px;
+  padding: 5px;
 
 }
 
@@ -215,7 +214,7 @@ a{
 #subbtn{
     position: relative;
     padding: 15px 0px;
-    width: 10%;
+    width: 20%;
     top:30px;
     background-color: palevioletred;
     border: 1px solid palevioletred;
@@ -229,7 +228,7 @@ a{
 
 }
 .history{
-    width: 1024px;
+    width: 768px;
     margin: 0px auto;
     padding: 0px;
 
@@ -239,24 +238,24 @@ a{
 
 .hsimg{
 
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 
 }
 
 .hsimg img{
-    width: 40%;
+    width: 60%;
 
     position: relative;
-    left: 3%;
+    left: 20%;
 
 }
 .text{
 
-    width: 1024px;
+    width: 768px;
     position: relative;
-    margin-top: -42%;
-    margin-left: 25%;
+
+
     text-align: center;
 
 }
@@ -281,59 +280,5 @@ a{
 
 
     }
-.wideImg{
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-
-
-
-}
-
-.wideImg #juimg{
-
-    width: 400px;
-    margin-bottom: 20%;
-   margin-right: 6%;
-}
-
-.wideImg #modelimg{
-    width: 500px;
-
-    margin-bottom: 10%;
-    margin-left: 5%;
-    height: 550px;
-
-}
-
-.introWrap{
-    width: 100%;
-    margin-bottom: 0% auto;
-    padding: 0px;
-}
-.textWrap{
-
-    width: 100%;
-    margin-bottom: 10%;
-
-
-
-}
-.texthead{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-.introText{
-
-    width: 100%;
-
-    text-align: center;
-
-
-}
-
 
 }
