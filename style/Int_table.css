@@ -1,6 +1,6 @@
-@media screen and (min-width: 1024px){
+@media screen and (max-width:1023px) and (min-width: 768px){
 #all_view{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
     padding: 0%;
 
@@ -133,7 +133,7 @@ a{
 }
 .snsIcon li{
     display: inline-block;
-    width: 100px;
+    width: 80px;
 
 }
 
@@ -141,7 +141,7 @@ a{
 .instaPhoto li{
     list-style: none;
     display: inline-block;
-    width: 200px;
+    width: 130px;
     margin-top:5%;
 
 
@@ -229,7 +229,7 @@ a{
 
 }
 .history{
-    width: 1024px;
+    width: 768px;
     margin: 0px auto;
     padding: 0px;
 
@@ -239,7 +239,7 @@ a{
 
 .hsimg{
 
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 
 }
@@ -253,7 +253,7 @@ a{
 }
 .text{
 
-    width: 1024px;
+    width: 768px;
     position: relative;
     margin-top: -42%;
     margin-left: 25%;
@@ -282,7 +282,7 @@ a{
 
     }
 .wideImg{
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     width: 100%;
 
@@ -292,16 +292,16 @@ a{
 
 .wideImg #juimg{
 
-    width: 400px;
-    margin-bottom: 20%;
-   margin-right: 6%;
+    width: 350px;
+    margin-bottom: 10%;
+   margin-left: 25%;
 }
 
 .wideImg #modelimg{
     width: 500px;
 
     margin-bottom: 10%;
-    margin-left: 5%;
+    margin-left: 18%;
     height: 550px;
 
 }
