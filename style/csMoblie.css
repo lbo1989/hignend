@@ -1,0 +1,113 @@
+
+@media screen and (min-width : 360px){
+     .cs-main {
+         display: none;
+    }
+    .thum01 img{
+     display: none;
+    }
+    .tbthum {
+        display: none;
+    }
+
+    .mbthum {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .mbthum img{
+        width: 100%;
+    }
+
+    .cs-head p {
+        font-size: 3em;
+        text-align: center;
+        margin: 100px 0px 100px 0px;
+    }
+
+    .cs-menubar p {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+    .cs-slider{
+        margin: 0 10px 150px;
+
+    }
+
+
+    .csbgtest{
+        display: none;
+    }
+
+
+
+
+    /*--Connect with high-end--*/
+    .conn {
+        width: 100%;
+        position: relative;
+        padding: 0px;
+        text-align: center;
+
+
+    }
+
+    .smalltitle {
+        padding: 0;
+        font-size: 1.5em;
+        font-weight: 300;
+        margin: 0px 0 3%;
+    }
+
+    .snsIcon {
+
+        margin-top: 2%;
+        list-style: none;
+
+    }
+
+    .snsIcon li {
+        display: inline-block;
+        width: 3%;
+
+    }
+
+
+    .instaPhoto li {
+        list-style: none;
+        display: inline-block;
+        width: 13%;
+        margin-top: 3%;
+
+
+    }
+
+    .msOver:hover {
+        opacity: 0.7;
+    }
+
+    .instaPhoto .jw {
+
+        display: inline-block;
+
+        width: 50%;
+        height: 100px;
+        border: 1px solid silver;
+
+        background-color: antiquewhite;
+    }
+
+    .instaPhoto .watch {
+        display: inline-block;
+        width: 50%;
+        height: 100px;
+        border: 1px solid silver;
+        background-color: antiquewhite;
+    }
+
+    .iconImg {
+        margin-bottom: 100px;
+    }
+
+}
