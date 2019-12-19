@@ -6,12 +6,13 @@
         #w_wrap h2{
             font-size: 60px;
             width: 247px;
+            text-align: center;
             margin: 0px auto 10%;
         }
 
         article div{/*시계설명 단*/
-            width: 60%;
-            text-align: left;
+            width: 100%;
+            text-align: center;
             margin: 0px auto 10%;
         }
 

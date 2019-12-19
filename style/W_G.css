@@ -1,0 +1,83 @@
+ /*main css*/
+        #g_main{
+            background-image: url(../img/Watches/gentlemain.jpg);
+            background-repeat: no-repeat;
+            width: 1024px;
+            margin:0px auto;
+        }
+        #g_main div{
+            width: 1024px; height: 460px;
+            margin:0px;
+            color: white;
+            font-size: 45px;
+            text-align: center;
+        }
+        #g_main h2{
+            position: relative;
+            top: 20px;
+            display: none;
+        }
+        #g_main img{
+            background-color: black;
+            position: relative;
+            top: 50px;
+            padding: 20px;
+            border: 4px double white;
+            display: none;
+        }
+
+        /*slide style*/
+        .visual img{
+            width: 400px;
+            margin: 100px;
+        }
+        .visual p{
+            margin: 200px 25px;
+        }
+        #slide{
+            width: 1024px; height: 465px;
+            background-color: black;
+            margin: 0 auto;
+        }
+        .visual{
+            width: 970px;
+            margin: 0px auto;
+        }
+
+        .model{
+            color: white;
+        }
+
+        hr{
+            margin: 100px;
+        }
+
+        /*product단*/
+        #w_2_sec{
+            margin: 0px;
+        }
+
+        .product{
+            width: 1024px; height:auto;
+            margin: 0px auto;
+        }
+        .p_w{
+            display: inline-block;
+            width:240px; height: 345px;
+            border: 3px double black;
+            margin: 45px;
+
+        }
+        .p_w img{
+            width: 100%; height: 315px;
+            padding-bottom: 10px;
+        }
+        .p_w p{
+            width: 240px;
+            background-color: rgb(23,23,23);
+            color: white;
+            text-align:center;
+            display: none;
+            position: relative;
+            bottom: 5px;
+        }

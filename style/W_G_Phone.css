@@ -1,0 +1,55 @@
+#g_main{
+    margin: 0px;
+}
+#g_main div{
+    width: 100%; height: 354px;
+    background-image: url(../img/Watches/m_gentleman.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+#g_main h2{
+    color: white;
+    position: relative;
+    top: 5%;
+    font-size: 200%;
+    display: none;
+}
+#g_main img{
+    border: 4px double white;
+    margin: 10%;
+    width: 150px;
+    display: none;
+}
+#slide{
+    text-align: center;
+    width: 100%;
+    background-color: black;
+}
+.visual div{
+    width: 100%;
+    margin:0 auto;
+}
+.visual img{
+    width: 100%;
+
+}
+.model{
+    display: none;
+}
+
+.product{
+            width: 100%; height:auto;
+            margin: 0px auto;
+             text-align: center;
+        }
+.p_w{
+            display: inline-block;
+            border: 3px double black;
+            margin: 45px;
+
+        }
+.p_w img{
+            width: 150px;
+            padding-bottom: 10px;
+        }

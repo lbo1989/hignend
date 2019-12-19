@@ -57,7 +57,7 @@
         padding: 0;
         font-size: 1.5em;
         font-weight: 300;
-        margin: 0px 0 3%;
+        margin: 70px 0 3%;
     }
 
     .snsIcon {
@@ -92,7 +92,7 @@
         display: inline-block;
 
         width: 50%;
-        height: 100px;
+        height: 40px;
         border: 1px solid silver;
 
         background-color: antiquewhite;
@@ -101,7 +101,7 @@
     .instaPhoto .watch {
         display: inline-block;
         width: 50%;
-        height: 100px;
+        height: 40px;
         border: 1px solid silver;
         background-color: antiquewhite;
     }
