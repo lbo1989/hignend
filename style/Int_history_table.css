@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px){
 #all_view{
     width: 100%;
     margin: 0 auto;
@@ -9,15 +9,15 @@
 
 .storyhead{
 
-    width: 1024px;
+    width: 768px;
     margin-bottom: 5%;
-    margin-left: 47.9%;
+    margin-left: 48%;
 
 
 }
 
 .intMainBox{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
     padding: 0px;
 
@@ -26,11 +26,11 @@
 
 .storyUI{
 
-    margin-left: 5%;
+    margin-left: 8%;
     overflow: hidden;
     margin-bottom: 10%;
     text-align: center;
-    width: 1024px;
+    width: 768px;
     display: inline-block;
     padding: 0px 20px;
     box-sizing: border-box;
@@ -102,7 +102,7 @@ a{
 
 
 .conn{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
     padding: 0px;
 
@@ -117,7 +117,6 @@ a{
     font-weight: 300;
     margin: 0px 0 3%;
 }
-
 
 .snsIcon{
 
@@ -164,6 +163,7 @@ a{
 }
 
 .subWrap{
+
    width: 100%;
    background-color: silver;
 
@@ -174,8 +174,8 @@ a{
 
 }
 .subscribe{
-    max-width: 1350px;
-    margin-left: 11%;
+    max-width: 1023px;
+
     width: 100%;
     margin-top:9%;
     padding: 70px 0px;
@@ -222,7 +222,7 @@ a{
 
 }
 .history{
-    width: 100%;
+    width: 768px;
     margin: 0px auto;
     padding: 0px;
 
@@ -239,16 +239,16 @@ a{
 }
 
 .hsimg img{
-    margin-left: -35%;
-    width: 25%;
-    height: 500px;
+    margin-left: -15%;
+    width: 50%;
+    height: 600px;
 
 }
 .text{
-    width: 20%;
+    width: 25%;
     position: absolute;
-    top:48%;
-    left:57%;
+    top:40%;
+    left:60%;
     text-align: center;
 
 }
@@ -260,6 +260,10 @@ a{
 
 .logoimg1:hover{
     opacity: 0.3;
+
+}
+.iconImg{
+      margin-top: 15%;
 
 }
 
