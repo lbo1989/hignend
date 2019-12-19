@@ -39,7 +39,7 @@ div .j_linetop{
 }
 
 .j_linetop h4{
-    tab-size: 5px;
+    font-size: 16px;
 }
 
 div .j_linebo{
@@ -58,7 +58,7 @@ div .s_linetop{
 }
 
 a{
-    color: lightslategrey;
+    color: #222;
     text-decoration:none;
 }
 a:hover{
@@ -112,7 +112,7 @@ li{
     display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
 }
 #gnb_j li a:hover{
-    color: hotpink;
+    color: #f22c2d;
 }
 #gnb_j li a.on{
     border-bottom:4px solid #333;
