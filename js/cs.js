@@ -35,7 +35,7 @@ $(document).ready(function () {
     });
 
     $('.bgtitle').on('mouseover', function () {
-        $(this).css('color', 'pink');
+        $(this).css('color', 'white');
     });
     $('.bgtitle').on('mouseout', function () {
         $(this).css('color', 'black');

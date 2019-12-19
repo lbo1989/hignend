@@ -26,12 +26,15 @@
         font-size: 3em;
         text-align: center;
         margin: 100px 0px 150px 0px;
+        font-family: serif;
+        font-weight: bolder;
     }
 
     .cs-menubar p {
         text-align: center;
         font-size: 20px;
         margin-bottom: 70px;
+        font-weight:
     }
 
 
@@ -95,7 +98,7 @@
         float: right;
         height: 400px;
 
-        background-color : rgba(255,225,199);/*색상 변경할것 베이지 계열*/
+        background-color : rgb(232,206,194);/*색상 변경할것 베이지 계열*/
 
     }
     .bgtitle {
@@ -107,10 +110,10 @@
     }
 
     .bgsubtitle {
-        font-size: 1em;
+        font-size: 18px;
         text-align: right;
         margin-right: 70px;
-
+        color : white;
     }
 
 
