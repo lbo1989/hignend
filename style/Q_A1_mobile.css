@@ -5,7 +5,13 @@ li{
 
 
 }
+
+
+
+
+
 .subject{
+    width: 100%;
     font-size: 15px;
     font-weight: 200;
     padding-left: 7%;
@@ -14,33 +20,38 @@ li{
 .content{
     font-size: 15px;
     font-weight: 300;
-    background-color: ivory;
+
     padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
     margin: 4% 0% 4% 0%;
 }
 .a_qa{
-    width: 60%;
+    clear: both;
+    width: 95%;
     border-top: 1px solid silver;
 
     margin:0 auto;
 }
+
+
 .a_qa ul li{
     border-bottom: 1px solid #A6A6A6;
+
 }
  div ul li div{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:100%; background:#fff;z-index:100;
-}
-#gnb_j li{
-    float:left; width: 12%;
+    ;width:100%; background:#fff;z-index:100;margin-bottom: 10%;
 
 }
+#gnb_j li{
+    float:left; font-size: 13px; width: 20%;
+    margin-bottom: 10%;
+}
 #gnb_j li a{
-    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
+    display: block; padding:10px 0px;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
     border-top: 2px solid #A6A6A6;
 }
 #gnb_j li a:hover{
@@ -69,11 +80,10 @@ li{
 }
 
 .list_tab{
-    margin-bottom: 5%;
+
     width: 100%;
-    padding: 20px;
-    margin-top: 10%;
-    margin-left: 18%;
+
+    margin: 0 auto;
 }
 
 .subject:hover{
@@ -84,7 +94,7 @@ li{
 
 .qatitle{
 
-    margin-top: 3%;
+    margin-top: 4%;
     padding-top: 10px;
     font-size: 44px;
     text-align: center;
@@ -95,10 +105,10 @@ li{
 
 }
 .qat{
-    position: relative;
-    right: -35%;
-    height: 130px;
+    height: 150px;
+    margin: 0 auto;
     width: 100%;
+    text-align: center;
 
 
 
@@ -115,8 +125,8 @@ li{
     padding-top: 10%;
 }
 .btntab{
-    position: relative;
 
+    display: block;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -150,7 +160,7 @@ li{
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
 
 
     color:#444;
@@ -158,7 +168,7 @@ li{
 
 }
 
-.on {
+.btntab .on{
     color: #222222;
     text-decoration: underline;
     text-decoration-color: red;
@@ -166,6 +176,7 @@ li{
 }
 
 .btntab a{
+    display: block;
     font-size: 26px;
     vertical-align: top;
     line-height: 1;
@@ -181,14 +192,23 @@ li{
     color:#888888;
 }
 
+.content{
+
+    width:100%;
+    margin: 0 auto;
+
+    }
+
 .content p{
-    width: 1024px;
+    width: 100%;
+
 
 }
 
 .all_view{
-    width: 1024px;
-    margin: 0 auto;
+    width: 100%;
+    margin:0 auto;
+
 }
 
 }

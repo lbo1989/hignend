@@ -14,14 +14,14 @@ li{
 .content{
     font-size: 15px;
     font-weight: 300;
-    background-color: ivory;
+
     padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
     margin: 4% 0% 4% 0%;
 }
 .a_qa{
-    width: 60%;
+    width: 95%;
     border-top: 1px solid silver;
 
     margin:0 auto;
@@ -69,7 +69,7 @@ li{
 }
 
 .list_tab{
-    margin-bottom: 5%;
+    margin-bottom: 10%;;
     width: 100%;
     padding: 20px;
     margin-top: 10%;
@@ -84,7 +84,7 @@ li{
 
 .qatitle{
 
-    margin-top: 3%;
+    margin-top: 4%;
     padding-top: 10px;
     font-size: 44px;
     text-align: center;
@@ -95,11 +95,10 @@ li{
 
 }
 .qat{
-    position: relative;
-    right: -35%;
-    height: 130px;
+    height: 150px;
+    margin: 0 auto;
     width: 100%;
-
+    text-align: center;
 
 
 
@@ -142,9 +141,9 @@ li{
 
 
 
-    margin-top: 5%;
-    text-align: center;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -154,11 +153,12 @@ li{
 
 
     color:#444;
-    margin-bottom: -3%;
+    margin-top:10%;
+    margin-bottom: 10%;
 
 }
 
-.on {
+.btntab .on{
     color: #222222;
     text-decoration: underline;
     text-decoration-color: red;
@@ -182,13 +182,10 @@ li{
 }
 
 .content p{
-    width: 1024px;
+    width: 100%;
 
 }
 
-.all_view{
-    width: 1024px;
-    margin: 0 auto;
-}
+
 
 }

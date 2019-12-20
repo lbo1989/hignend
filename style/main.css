@@ -7,7 +7,9 @@
 .main_img_box>img{
     width: 100%;
 }
-
+#mainImg_table{
+    display: none;
+}
 #brandVisual{
     position: relative;
     width: 100%;
@@ -29,9 +31,9 @@
 #brandVisual li a {display:block; text-indent: -9999px;}
 #brandVisual .visual_0 { left: 0px ; background: url('../img/main01.jpg') 50% 0 no-repeat; }
 
-#brandVisual .visual_1 { left: 100% ; background: url('../img/1.png') 50% 0 no-repeat; }
+#brandVisual .visual_1 { left: 100% ; background: url('../img/main02.jpg') 50% 0 no-repeat; }
 
-#brandVisual .visual_2 { left: 200% ; background: url('../img/2.png') 50% 0 no-repeat; }
+#brandVisual .visual_2 { left: 200% ; background: url('../img/main04.jpg') 50% 0 no-repeat; }
 
 
 #buttonList:after {content:"";
@@ -55,6 +57,8 @@ h2{
     font-size: 60px;
     color: #222;
     text-align: center;
+    font-family: 'Inria Serif', serif;
+    font-weight: lighter;
 }
 .newEvent_txt{
     margin: 10px 0px 20px;
@@ -138,15 +142,16 @@ h2{
     background-color: rgba(0,0,0,0.8);
 }
 
-/*dd*/
 .now_inner {
   position: relative;
   width: 23.8%;
+        height: 369px;
     margin-left: 10px;
 cursor: pointer;
-    display: inline-block;
+    display: inline-block
 }
 .now_box_inner{
+    width: 100%;
     margin-top: 20px;
 }
 .now_image {
@@ -206,17 +211,6 @@ cursor: pointer;
     text-align: left;
     padding: 0px 0px 0px 15px;
 }
-.mainIcon{
-    text-align: center;
-}
-.mainIcon_box{
-    width:1024px;
-    margin: 0 auto;
-
-}
-.mainIcon_li{
-    display: inline-block;
-}
 
 /*product*/
 .main_pro{
@@ -224,13 +218,17 @@ cursor: pointer;
     margin: 0 auto;
 }
 .main_pro_tit{
-    margin: 20px 0;
+    width: 100%;
+    margin: 20px 10px 0;
+    cursor: pointer;
 }
 .main_pro_titli{
     display: inline-block;
-    width: 30%;
-    padding: 10px;
+    width: 30.5%;
+    padding: 20px 10px;
     text-align: center;
+    margin: 0 -4px;
+    border: 1px solid #ececec;
 }
 .main_pro_imgbox{
     margin: 0 10px;
@@ -242,6 +240,9 @@ main_pro_imgbox{
 .banner_img{
     width: 32.9%;
     display: inline-block;
+}
+.pro_first{
+    margin: 0 0px;
 }
 
 

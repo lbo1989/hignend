@@ -2,31 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>HIGHEND login</title>
     <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style/common.css">
-    <link rel="stylesheet" href="style/hf.css" media="all and (min-width:950px)">
-    <link rel="stylesheet" href="style/hfphone.css" media="all and (min-width:320px) and (max-width:949px)">
-    <link rel="stylesheet" href="style/login.css" media="all and (min-width:950px)">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/loginPhone.css" media="all and (min-width:320px) and (max-width:767px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
     <div id="wrap">
        <div class="loginBox">
-            <p class="loginLogo"><a href="#"><img src="img/logo.png" class="loginLogoImg"></a></p>
+            <p class="loginLogo"><a href="main.html"><img src="img/logo.png" class="loginLogoImg"></a></p>
             <div class="login_inputBox">
-                <form class="login_inputInner">
+                <form class="login_inputInner" name="login">
                    <ul>
                        <li>
-                          <label for="id">아이디</label>
-                           <input type="text" id="login_id" class="login_input" name="login_id" placeholder="아이디">
+                          <label for="login_id">아이디</label>
+                           <input type="text" id="login_id" class="login_input" name="login_id" placeholder="아이디" autofocus required>
                        </li>
                        <li>
-                          <label for="pw">비밀번호</label>
-                           <input type="text" id="login_pw" class="login_input"name="login_pw" placeholder="비밀번호">
+                          <label for="login_pw">비밀번호</label>
+                           <input type="password" id="login_pw" class="login_input"name="login_pw" placeholder="비밀번호" required>
                        </li>
                        <li>
-                         <input type="button" id="login_btn" class="login_btn1" name="login" value="로그인">
+                         <input type="button" id="login_btn" class="login_btn1" name="login" value="로그인" >
                        </li>
                        <li>
                           <input type="checkbox" name="login_keep" id="loginkeep">

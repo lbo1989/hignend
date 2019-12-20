@@ -10,6 +10,7 @@
 
 .j_mainimg img{
     width: 100%;
+    margin: 0 auto;
 }
 
 .j{
@@ -17,6 +18,9 @@
     width: 32%;
     margin-top:  2%;
     margin-bottom: 5%;
+}
+.j a{
+    color: darkgray;
 }
 .j img{
     width: 100%;
@@ -32,22 +36,38 @@ div .j_body{
 }
 div .j_linetop{
     width: 1024px;
-    color: #A6A6A6;
-    border-bottom: 2px solid silver;
+    color: #222;
+    border-bottom: 1px solid silver;
     text-align: center;
     margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.j_linetop h2{
+    margin-bottom: 2%;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.j_linetop h4{
+    margin-bottom: 3%;
+    font-family: 'Pinyon Script', cursive;
+    letter-spacing: 1px;
+    font-size: 23px;
 }
 
 div .j_linebo{
     text-align: center;
-    color: #A6A6A6;
+    color: #222;
     border-top: 2px solid silver;
     width: 100%;
 }
 
 div .s_linetop{
     text-align: center;
-    color: #A6A6A6;
+    color: #222;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -76,19 +96,19 @@ li{
     padding-left: 7%;
     padding: 3%
 }
+.subject:hover{
+    background-color: #f3f3f3;
+}
 .content{
     font-size: 15px;
     font-weight: 300;
-    background-color: ivory;
-    padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 4% 0% 4% 0%;
+    padding: 4%;
 }
 .a_qa{
     width: 60%;
     border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
     margin: 0 auto;
     margin-bottom: 5%;
 }
@@ -99,13 +119,14 @@ li{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:100%;border-bottom:2px solid #A6A6A6;border-bottom:2px solid #A6A6A6;background:#fff;z-index:100; margin: 0 auto;
+    ;width:100%;border-bottom:1px solid #A6A6A6;
+    background:#fff;z-index:100; margin: 0 auto;
 }
 #gnb_j  li{
     float:left;width:24.98%;
 }
 #gnb_j li a{
-    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
+    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:1px solid #A6A6A6;border-left:1px solid #A6A6A6;
 }
 #gnb_j li a:hover{
     color: #f22c2d;

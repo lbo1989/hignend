@@ -124,6 +124,12 @@ header {
 .line{
     border-bottom: 2px solid #ececec;
 }
+.menuT{
+    display: none;
+}
+.menuIcon, .tlogo{
+    display: none;
+}
 /*
 
 

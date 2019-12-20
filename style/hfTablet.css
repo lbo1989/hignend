@@ -1,0 +1,124 @@
+/**********************************tablet버전*/
+
+/*header*/
+/*top*/
+.top {
+     display: none;
+}
+.tmHeader{
+    padding: 0 20px;
+}
+.menuIcon{
+   display: inline-block;
+}
+.menuIcon.menuIcon_menu{
+    width: 10%;
+}
+.menuIcon.menuIcon_logo{
+    width: 78%;
+    text-align: center;
+}
+.menuIcon.menuIcon_login{
+    width: 10%;
+    text-align: right;
+
+}
+.menuIcon_menu_img{
+    width: 20px;
+    margin: 7px 0px;
+}
+.menuIcon_login_img{
+    width: 25px;
+    margin: 4px 0px;
+}
+.menuT{
+    width: 100%;
+    background-color:rgba(0,0,0,0.8);
+    position: absolute;
+    top:70px;
+    left: 0px;
+    text-align: center;
+    padding: 30px 0px;
+    display: none;
+    z-index: 1;
+}
+.menuT_t{
+    padding: 10px 0;
+}
+.menuT_tt{
+
+}
+.menuT_tt_sub{
+    display: none;
+}
+.menuT_tt_li> a{
+    color: #a9a9a9;
+    cursor: pointer;
+}
+.menuT_tt_li> a:hover, .menuT_tt_li> a:active,.menuT_tt_li> a:focus{
+    color: #ff9292;
+    cursor: pointer;
+}
+.menuT_tt_last{
+    margin-bottom: 10px;
+}
+#tlogo{
+    margin: 0 auto;
+}
+#tlogo a img{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+header {
+     width: 100%;
+     height: 70px;
+     position: fixed;
+     top: 0;
+     background-color: #fff;
+     border-bottom: 1px solid #ececec;
+    z-index: 5;
+}
+#realHeader{
+    display: none;
+}
+.menuT_t > a{
+    color: white;
+}
+
+/*footer*/
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #232323;
+    color: #fff;
+    padding: 50px 0 56px;
+}
+.foot{
+    width: 626px;
+    margin: 0 auto;
+}
+.foot_li{
+    display: inline-block;
+    padding: 15px 10px
+}
+.foot_up{
+    margin-bottom: 15px;
+     border-bottom: 1px solid rgba(202,200,199,0.1);
+}
+.foot_logo{
+    display: inline-block;
+}
+.foot_another{
+    display: inline-block;
+    margin-left: 2%;
+}
+.foot_li a{
+    font-size: 12px;
+    color: #8A8A8A;
+}
+.foot_down address{
+    font-size: 12px;
+    color: #8A8A8A;
+    font-style: normal;
+}

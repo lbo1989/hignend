@@ -93,10 +93,10 @@ li{
 
 }
 .qat{
-    position: relative;
-    right: -40%;
-    height: 130px;
-    width: 1024px;
+    height: 150px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 
 
 }
@@ -111,10 +111,9 @@ li{
     padding-top: 80px;
 }
 .btntab{
-    position: relative;
-    right:-32%;
-    margin-bottom: 3%;
-    width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -135,23 +134,22 @@ li{
 
 .opinion{
 
-    position: relative;
-    right:-33%;
-    width: 99%;
-
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
 }
 
 .inner{
-    width: 99%;
+    width: 100%;
     font-size: 16px;
-    text-align: left;
-    line-height: 30px;
+
+
     color:#444;
     margin-bottom: -3%;
 
 }
 
-.on {
+.btntab .on{
     color: #222222;
     text-decoration: underline;
     text-decoration-color: red;
