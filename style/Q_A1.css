@@ -34,25 +34,25 @@ li{
     border-top: 1px solid silver;
 
     margin:0 auto;
-    margin-bottom: 5%;
+    margin-bottom: -10%;
+
 
 }
-.a_qa ul{
-    margin-bottom:-30%;
 
-    }
 
 .a_qa ul li{
-    border-bottom: 1px solid #A6A6A6; margin-bottom:
+    border-bottom: 1px solid #A6A6A6;
 }
  div ul li div{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:100%; background:#fff;z-index:100;
+    width:100%; background:#fff;z-index:100; margin: 0 auto;
+
+
 }
 #gnb_j li{
-    float:left; width: 12%;
+    float:left; width: 14%;
 
 }
 #gnb_j li a{
@@ -85,11 +85,18 @@ li{
 }
 
 .list_tab{
+
+
     margin-bottom: 5%;
     width: 100%;
     padding: 20px;
     margin-top: 10%;
-    margin-left: 18%;
+    margin-left: 13%;
+
+
+
+
+
 }
 
 
@@ -166,7 +173,7 @@ li{
 
 }
 
-.on {
+.btntab .on{
     color: #222222;
     text-decoration: underline;
     text-decoration-color: red;

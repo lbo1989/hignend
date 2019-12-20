@@ -27,9 +27,9 @@
 
 .storyUI{
 
-    margin-left: 20px;
 
-    margin-bottom: 10%;
+
+    margin-bottom: 5%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -39,10 +39,12 @@
 
 }
 .storyUI li{
+    width: 20%;
     list-style: none;
     display: inline-block;
+    border: 1px solid silver;
+    padding: 1.5%;
 
-    padding: 0% 50px 0% 50px;
 
 }
 .storyUI li a{
@@ -52,7 +54,7 @@
     box-sizing: border-box;
 
 
-    width: 20%;
+
 
 
 
@@ -282,7 +284,7 @@ a{
 
     }
 .wideImg{
-    display: inline-block;
+
     margin: 0 auto;
     width: 100%;
 
@@ -291,30 +293,31 @@ a{
 }
 
 .wideImg #juimg{
-
-    width: 400px;
-    margin-bottom: 20%;
-   margin-right: 6%;
+    display: inline-block;
+    width: 350px;
+    margin-bottom: 15%;
+   margin-left: 5%;
 }
 
 .wideImg #modelimg{
     width: 500px;
 
+    display: inline-block;
     margin-bottom: 10%;
-    margin-left: 5%;
-    height: 550px;
+    margin-left: 2%;
+
 
 }
 
 .introWrap{
     width: 100%;
-    margin-bottom: 0% auto;
+    margin:0 auto;
     padding: 0px;
 }
 .textWrap{
 
     width: 100%;
-    margin-bottom: 10%;
+    margin: 0 auto;
 
 
 
