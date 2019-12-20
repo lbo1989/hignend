@@ -90,20 +90,12 @@ a{
 
 
 
-.htit1{
-
-
+.pic-title{
     font-size:27px;
-
-    font-weight: 200;
-    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-
-
-
-
+    margin-top: 30%;
 }
-
 
 
 
@@ -127,53 +119,51 @@ a{
 }
 
 
-.snsIcon{
+.snsIcon {
 
-    margin-top: 3%;
-    list-style:none;
+        margin-top: 2%;
+        list-style: none;
 
-}
-.snsIcon li{
-    display: inline-block;
-    width: 50px;
-
-}
-
-.instaPhoto{
-        width: 360px;
-        margin: 0 auto;
     }
 
-.instaPhoto li{
-    list-style: none;
-    display: block;
-    width: 150px;
-    margin-top:5%;
-    margin-left: 27%;
+    .snsIcon li {
+        display: inline-block;
+        width: 3%;
 
-}
+    }
+    .instaPhoto{
+        margin: 0 auto;
+    }
+    .instaPhoto li {
+        list-style: none;
+        display: inline-block;
+        width: 22%;
+        margin-top: 5%;
+
+    }
+
+
+.instaPhoto .jw {
+
+        display: inline-block;
+        width: 90%;
+        border: 1px solid silver;
+        margin-right: 30px;
+        background-color: antiquewhite;
+    }
+
+
+
+    .instaPhoto .watch-mb{
+        display: none;
+    }
+
 
 .msOver:hover{
     opacity: 0.7;
 }
 
-.instaPhoto .jw{
 
-    display: inline-block;
-
-    width: 70%;
-    height: 100px;
-    border: 1px solid silver;
-
-     background-color: antiquewhite;
-}
-.instaPhoto .watch{
-    display: inline-block;
-    width:70%;
-    height: 100px;
-    border: 1px solid silver;
-     background-color: antiquewhite;
-}
 
 .subWrap{
    width: 100%;
@@ -267,8 +257,8 @@ a{
 
 }
 
-.logoimg1 img{
-    width: 70%;
+.logoimg1{
+    width: 90%;
 
 }
 

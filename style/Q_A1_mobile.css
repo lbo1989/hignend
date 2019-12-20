@@ -92,16 +92,11 @@ li{
 
 }
 
-.qatitle{
-
-    margin-top: 4%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
+.pic-title{
+    font-size:40px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
 }
 .qat{
@@ -208,6 +203,67 @@ li{
 .all_view{
     width: 100%;
     margin:0 auto;
+
+}
+.storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+    width: 160px;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding:0.8%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+    a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
 
 }
 

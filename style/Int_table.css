@@ -8,6 +8,7 @@
  }
 
 .storyhead{
+
     height: 100px;
     width: 100%;
     margin: 0 auto;
@@ -27,7 +28,7 @@
 
 .storyUI{
 
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -87,18 +88,11 @@ a{
 
 
 
-.htit1{
-
-
+.pic-title{
     font-size:27px;
-
-    font-weight: 200;
-    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-
-
-
-
+    margin-top: 15%;
 }
 
 
@@ -245,22 +239,21 @@ a{
 .hsimg img{
     width: 40%;
 
-    position: relative;
-    left: 3%;
+
 
 }
 .text{
 
     width: 768px;
-    position: relative;
-    margin-top: -42%;
-    margin-left: 25%;
+    margin: 0 auto;
+
+
     text-align: center;
 
 }
 
 .logoimg1 img{
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -288,13 +281,21 @@ a{
 
 }
 
+.wideImg #modelimg2{
 
+     display: none;
+
+    }
+.wideImg #modelimg3{
+      display: none;
+
+    }
 
 .wideImg #modelimg{
     width: 100%;
 
     margin-bottom: 10%;
-    margin-left: 18%;
+    margin-left: 0%;
 
 
 }

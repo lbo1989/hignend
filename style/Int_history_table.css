@@ -88,21 +88,13 @@ a{
 
 
 
-.htit1{
 
-
+.pic-title{
     font-size:27px;
-
-    font-weight: 200;
-    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-
-
-
-
+    margin-top: 15%;
 }
-
-
 
 
 
@@ -260,7 +252,7 @@ a{
 
 }
 
-.logoimg1 img{
+.logoimg1{
     width: 90%;
 
 }

@@ -82,16 +82,11 @@ li{
 
 }
 
-.qatitle{
-
-    margin-top: 4%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
+.pic-title{
+    font-size:44px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
 }
 .qat{
@@ -125,14 +120,14 @@ li{
 
 
 .banner{
-    width: 100%;
+    width: 1024px;
     margin: 0 auto;
     padding: 0px;
 
 }
 .bnimg{
     width: 100%;
-    position: relative;
+
 
 
 }
@@ -149,7 +144,7 @@ li{
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 24px;
 
 
     color:#444;
@@ -185,6 +180,68 @@ li{
     width: 100%;
 
 }
+.storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding:0.8%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+    a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+}
+
 
 
 

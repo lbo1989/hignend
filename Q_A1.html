@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width,initial-scale=1.0 minimum-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/hf.css">
+    <link rel="stylesheet" href="style/hf.css" media="screen and (min-width:1024px)">
+     <link rel="stylesheet" href="style/hfTablet.css" media="screen and (max-width:1023px) and (min-width:768px)">
+    <link rel="stylesheet" href="style/hfphone.css" media="screen and (max-width:767px) and (min-width:360px)">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/Q_A1.css" media="screen and (min-width:1024px)">
      <link rel="stylesheet" href="style/Q_A1_table.css" media="screen and (max-width:1023px) and (min-width:768px)">
     <link rel="stylesheet" href="style/Q_A1_mobile.css" media="screen and (max-width:767px) and (min-width:360px)">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel+Decorative|Inria+Serif|Playfair+Display&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
@@ -27,12 +30,15 @@
 
         <div class="section">
              <div class="qat">
-             <h2 class=qatitle>고객 의견</h2>
+             <h2 class=pic-title>customor opinion </h2>
              </div>
             <div class="btntab">
-                <a href="#" class="on">자주하는 질문</a>
-                <a href="Q_A2.html">상담실 안내</a>
-                <a href="Q_A3.html">고객 의견 작성</a>
+                <ul class="storyUI">
+                <li class="active"><a href="#">자주하는 질문</a></li>
+                <li class="his"><a href="Q_A2.html">상담실 안내</a></li>
+                <li><a href="Q_A3.html">고객 의견 작성</a></li>
+                </ul>
+
             </div>
             <div class="opinion">
                 <div class="inner">
@@ -46,19 +52,7 @@
 
 
 
-            <div class="faq_area">
-                <div class="list_tab">
-                    <ul id="gnb_j">
-                        <li><a href="#">전체</a></li>
-                        <li><a href="#">기타</a></li>
-                        <li><a href="#">교환/환불</a></li>
-                        <li><a href="#">회원정보</a></li>
-                        <li><a href="#">상품권</a></li>
-                    </ul>
 
-
-
-                </div>
 
                 <div class="a_qa">
                     <ul id="accordion">
@@ -66,7 +60,7 @@
                             <p class="subject">Q. 상품권 교환 및 환불은 어떻게 하나요?  </p>
                             <div class="content">
                                 <p>A. 상품권의 환불은 구입 시 받으신 영수증과 상품권을 함께 지참하시고 해당 점포 상품권 매장으로 방문하시면 가능하며, 교환은
-                                정상적으로 당사의 발행일이 인쇄되어 있고, 훼손되지 않은 경우에 한해 상품권만 지참하시고 방문하시면 됩니다.</p>
+                                정상적으로 당사의 발행일이 인쇄되어 있고,<br> 훼손되지 않은 경우에 한해 상품권만 지참하시고 방문하시면 됩니다.</p>
 
                             </div>
                         </li>
@@ -127,7 +121,7 @@
 
 
 
-        </div>
+
        <footer id="footer">
 
        </footer>
