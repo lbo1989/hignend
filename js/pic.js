@@ -3,7 +3,7 @@ $(document).ready(function(){
 
         var b = $('body').width();
         console.log(b);
-       if(b<=768){
+       if(b<768){
            $('.mainvideo>video').offset({top : 100 ,left : -470});
        }
 
