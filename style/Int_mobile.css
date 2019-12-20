@@ -29,20 +29,21 @@
 
 
 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     width: 100%;
-    display: block;
+    display: inline-block;
 
     box-sizing: border-box;
 
 
 }
 .storyUI li{
+    width: 22%;
     list-style: none;
-    display: block;
-
-    padding: 0% 15px 0% 15px;
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1.5%;
 
 }
 .storyUI li a{

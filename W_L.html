@@ -3,8 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-</head>
-<body>
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
 
-</body>
-</html>
+
+<!--main css-->
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/hf.css">
+<!--main js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/common.js"></script>
+<!--W_G.css-->
+    <link rel="stylesheet" href="./style/W_L.css" media="all and (min-width:1024px)">
+    <link rel="stylesheet" href="./style/W_L_Tablet.css" media="all and (min-width:768px) and (max-width:1023px)">
+    <link rel="stylesheet" href="./style/W_L_Phone.css" media="all and (max-width:767px)">
+
+
+
+<!--slide css-->
+     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!--    // Add the new slick-theme.css if you want the default styling-->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+<script>
+    $(document).ready(function(){
+
+            $('#g_main h2').fadeIn(3000);
+            $('#g_main img').fadeIn(4000);
+
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+<!--header 영역-->
+        <header id="header">
+        </header>
+<!--메인단-->
+        <section id="g_main">
+           <div>
+            <h2>Lady</h2>
+            <img src="./img/Watches/L-1.jpg" alt="메인 시계">
+            </div>
+        </section>
+<!--slide단-->
+       <div id="slide">
+        <div class="visual">
+          <div><a href="#"><img src="./img/Watches/slide1.jpg" alt="시계1"></a></div>
+          <div class="model">
+          <p>
+              모델 명 : ABC123-01. <br>
+              시계 설명 : 블라블라블라블라브라
+          </p>
+          </div>
+          <div><a href="#"></a><img src="./img/Watches/slide2.jpg" alt="시계2"></div>
+          <div class="model">
+          <p>
+              모델 명 : ABC123-01. <br>
+              시계 설명 : 블라블라블라블라브라
+          </p>
+          </div>
+          <div><a href="#"></a><img src="./img/Watches/slide3.jpg" alt="시계3"></div>
+          <div class="model">
+          <p>
+              모델 명 : ABC123-01. <br>
+              시계 설명 : 블라블라블라블라브라
+          </p>
+          </div>
+          <div><a href="#"></a><img src="./img/Watches/slide4.jpg" alt="시계4"></div>
+          <div class="model">
+          <p>
+              모델 명 : ABC123-01. <br>
+              시계 설명 : 블라블라블라블라브라
+          </p>
+          </div>
+        </div>
+        </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+<!--   slide controller-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.visual').slick({
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          speed:3000,
+          dot:true
+        });
+
+
+    });
+ </script>
+<!--      slide 마지막단 -->
+       <hr>
+       <h3 style='text-align: center'>H I G H - E N D</h3>
+        <section id="w_2_sec">
+            <div class="product">
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-1-1.png" alt="시계1">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-1-2.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-1-3.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+
+            </div>
+
+             <div class="product">
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-2-1.png" alt="시계1">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-2-2.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-2-3.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+
+           <div class="product">
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-3-1.png" alt="시계1">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-3-2.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+                <div class="p_w">
+                    <a href="#">
+                        <img src="./img/Watches/L-3-3.png" alt="시계2">
+                    </a>
+                    <p>모델명 : ABC123-01</p>
+                </div>
+
+            </div>
+            </div>
+        <script>
+            $(document).ready(function(){
+                $('.p_w img').on('mouseenter',function(){
+                    $(this).parent().next().fadeIn(400);
+
+                });
+
+                $('.p_w img').on('focus',function(){
+                    $(this).parent().next().fadeIn(400);
+
+                });
+
+                $('.p_w img').on('mouseout',function(){
+                    $(this).parent().next().fadeOut(400);
+
+                });
+
+                let i = $('body').width();
+                $(window).resize(function(){
+                    if(i<768)
+                        {
+                            $('.model p').remove();
+                        }
+
+                });
+
+            });
+        </script>
+        </section>
+        <section>
+
+        </section>
+        <!--footer영역-->
+        <footer id="footer">
+        </footer>
+    </div>
+</body></html>

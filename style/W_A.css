@@ -1,18 +1,33 @@
-#w_wrap{/*watches*/
-            text-align: center;
-            margin: 70px 70px 100px;
-
+        #w_wrap{/*watches*/
+                    text-align: center;
+                    margin-top: 70px;
         }
         #w_wrap h2{
+            position: relative;
+            bottom: 200px;
             font-size: 60px;
             width: 247px;
             margin: 0px auto 10%;
+            color: white;
+            font-family: 'Cinzel Decorative', cursive;
+            font-weight: lighter;
+/*            font-family: 'Prata', serif;*/
+
         }
+        #w_wrap article img{
+            width: 100%
+        }
+
 
         article div{/*시계설명 단*/
             width: 60%;
             text-align: left;
             margin: 0px auto 10%;
+        }
+        article div p{
+            text-align: center;
+            letter-spacing: 1px;
+            font-size: 16px;
         }
 
         #gender{
@@ -25,6 +40,12 @@
             display: inline-block;
             margin: 2%;
         }
+        #gender div h3{
+            font-size: 30px;
+            margin: 5%;
+            font-weight: lighter;
+            font-family: 'Cinzel Decorative', cursive;
+        }
        #gender div img{
             width: 100%; height: 100%;
             transition-duration: 0.5s;
@@ -32,5 +53,8 @@
         }
 
         #gender div img:hover{
-            transform: scale(2.0);
+            transform: scale(1.5);
         }
+
+
+
