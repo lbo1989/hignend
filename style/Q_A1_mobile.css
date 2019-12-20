@@ -33,14 +33,15 @@ li{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:100%; background:#fff;z-index:100;
+    ;width:101%; background:#fff;z-index:100; margin: 0 auto;
+
 }
 #gnb_j li{
-    float:left; width: 12%;
+    float:left;width: 20%;
 
 }
 #gnb_j li a{
-    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
+    display: block; padding:10px 0px;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
     border-top: 2px solid #A6A6A6;
 }
 #gnb_j li a:hover{
@@ -71,9 +72,10 @@ li{
 .list_tab{
     margin-bottom: 5%;
     width: 100%;
-    padding: 20px;
+
     margin-top: 10%;
-    margin-left: 18%;
+
+    height: 80px;
 }
 
 .subject:hover{
@@ -84,7 +86,7 @@ li{
 
 .qatitle{
 
-    margin-top: 3%;
+    margin-top: 4%;
     padding-top: 10px;
     font-size: 44px;
     text-align: center;
@@ -95,10 +97,10 @@ li{
 
 }
 .qat{
-    position: relative;
-    right: -35%;
-    height: 130px;
+    height: 150px;
+    margin: 0 auto;
     width: 100%;
+    text-align: center;
 
 
 
@@ -115,8 +117,8 @@ li{
     padding-top: 10%;
 }
 .btntab{
-    position: relative;
 
+    display: block;
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -150,7 +152,7 @@ li{
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 14px;
 
 
     color:#444;
@@ -166,6 +168,7 @@ li{
 }
 
 .btntab a{
+    display: block;
     font-size: 26px;
     vertical-align: top;
     line-height: 1;
@@ -181,8 +184,9 @@ li{
     color:#888888;
 }
 
+
 .content p{
-    width: 1024px;
+    width: 100%;
 
 }
 

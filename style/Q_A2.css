@@ -93,10 +93,10 @@ li{
 
 }
 .qat{
-    position: relative;
-    right: -40%;
-    height: 130px;
-    width: 1024px;
+    height: 150px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 
 
 }
@@ -111,11 +111,9 @@ li{
     padding-top: 80px;
 }
 .btntab{
-    position: relative;
-    right:-32%;
-    margin-bottom: 3%;
-    width: 1024px;
-
+  margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -135,17 +133,17 @@ li{
 
 .opinion{
 
-    position: relative;
-    right:-28%;
-    width: 99%;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
 
 }
 
 .inner{
-    width: 99%;
+    width: 100%;
     font-size: 16px;
-    text-align: left;
-    line-height: 30px;
+
+
     color:#444;
     margin-bottom: -3%;
 
@@ -175,6 +173,7 @@ li{
 }
 
 .center{
+    width: 100%;
     margin: 0 auto;
     padding: 0px;
 
@@ -183,20 +182,21 @@ li{
 
 .list{
     display: table;
-    width: 1024px;
+    width: 100%;
     box-sizing: border-box;
     border: none;
     text-align: center;
-    margin-left: 20%;
+
     padding: 5%;
     margin-bottom: -8%;
 }
 
 .list li{
+
     margin-bottom: 20px;
     display: inline-block;
     padding: 21px 20px;
-    width: calc(50% - 10px);
+    width: calc(50% - 1%);
     box-sizing: border-box;
     border: 1px solid #e5e5e5;
     vertical-align: top;
@@ -208,16 +208,17 @@ li{
 }
 
 .li_title{
-    position: absolute;
+
     text-align: center;
-    padding-right: 20px;
+    position: relative;
+
     width: 15%;
-    box-sizing: border-box;
+
     vertical-align: middle;
     font-size: 16px;
     line-height: 22px;
     text-align: center;
-    top: 50%;
+    top:50%;
     transform: translateY(-50%);
 }
 
@@ -237,12 +238,13 @@ li{
 
 li_head{
 
-    display: inline-block;
-    width: 55px;
+
+
     color: #222;
 }
 
 p span{
+
     display: inline-block;
     font-size: 14px;
     line-height: 24px;
@@ -251,35 +253,42 @@ p span{
 }
 
 .under{
-    width: 1024px;
-    margin-top: 10%;
-    margin-left: 18%;
-    padding: 40px;
+    width: 100%;
+    margin: 10% auto;
+
+
     font-size: 14px;
     line-height: 26px;
-    background-color: #f6f6f6;
+
+
 
 }
 
 .fclear{
-    clear: both;
+
+    width: 1024px;
+    margin: 0 auto;
 }
 
 .under ul>li p{
+    width: 100%;
     font-size: 16px;
     color:#222;
     font-weight: 600;
 }
 
 .tell{
-    float: right;
-    text-align: left;
-    margin-right: 10%;
+    margin-top: -7%;
+    text-align: center;
+    margin-left: 30%;
 }
 
-.under ul>li{
-    display: inline-block;
-    vertical-align: middle;
+.under ul li{
+
+
+    width:100%;
+    display: block;
+
     font-size: 14px;
     color: #666;
 }

@@ -120,7 +120,7 @@ li{
 
 
 .banner{
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
     padding: 0px;
 
@@ -313,7 +313,7 @@ p span{
 
 }
 .bottom_inner{
-    margin-left:17%;
+
     padding: 50px 120px;
     border: 1px solid #e2e2e2;
     box-sizing: border-box;
