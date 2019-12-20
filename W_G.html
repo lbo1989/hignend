@@ -185,6 +185,16 @@
 
                 });
 
+                let i = $('body').width();
+                $(window).resize(function(){
+                    if(i<768)
+                        {
+                            $('.model p').remove();
+                        }
+                });
+
+
+
             });
         </script>
         </section>
