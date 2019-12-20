@@ -27,9 +27,7 @@
 
 .storyUI{
 
-    margin-left: 20px;
-
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -39,10 +37,12 @@
 
 }
 .storyUI li{
+   width: 20%;
     list-style: none;
     display: inline-block;
+    border: 1px solid silver;
+    padding: 1.5%;
 
-    padding: 0% 50px 0% 50px;
 
 }
 .storyUI li a{
