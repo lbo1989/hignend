@@ -292,19 +292,13 @@ a{
 
 }
 
-.wideImg #juimg{
-    display: inline-block;
-    width: 350px;
-    margin-bottom: 15%;
-   margin-left: 5%;
-}
+
 
 .wideImg #modelimg{
-    width: 500px;
+    width: 100%;
 
-    display: inline-block;
     margin-bottom: 10%;
-    margin-left: 2%;
+    margin-top: 5%;
 
 
 }
