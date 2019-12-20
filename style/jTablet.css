@@ -10,6 +10,7 @@
 
 .j_mainimg img{
     width: 100%;
+    margin: 0 auto;
 }
 
 .j{
@@ -33,12 +34,20 @@ div .j_body{
 div .j_linetop{
     width: 100%;
     color: #A6A6A6;
-    border-bottom: 2px solid silver;
+    border-bottom: 1px solid silver;
     text-align: center;
     margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.j_linetop h2{
+    margin-bottom: 2%;
+    font-size: 35px;
 }
 
 .j_linetop h4{
+    margin-bottom: 2%;
     font-size: 16px;
 }
 
@@ -78,21 +87,29 @@ li{
     font-size: 13px;
     font-weight: 200;
     padding-left: 7%;
-    padding: 3%
+    padding: 3%;
+}
+.subject:hover{
+    background-color: #f3f3f3;
 }
 .content{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
-    background-color: ivory;
-    padding-top: 4%;
     padding-left: 5%;
     padding-right: 5%;
-    margin: 4% 0% 4% 0%;
+    padding: 4%;
 }
+.j_linetop h2{
+    margin-bottom: 2%;
+}
+
+.j_linetop h4{
+    margin-bottom: 3%;
+}
+
 .a_qa{
-    width: 60%;
+    width: 95%;
     border-top: 1px solid silver;
-    border-bottom: 1px solid silver;
     margin: 0 auto;
     margin-bottom: 5%;
 }
@@ -103,13 +120,14 @@ li{
     border-top: 1px solid #A6A6A6;
 }
 #gnb_j{
-    ;width:80%;border-bottom:2px solid #A6A6A6;border-bottom:2px solid #A6A6A6;background:#fff;z-index:100; margin: 0 auto;
+    ;width:95%;border-bottom:1px solid #A6A6A6;
+    background:#fff;z-index:100; margin: 0 auto;
 }
 #gnb_j  li{
     float:left;width:24.98%;
 }
 #gnb_j li a{
-    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
+    display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:1px solid #A6A6A6;border-left:1px solid #A6A6A6;
 }
 #gnb_j li a:hover{
     color: #f22c2d;

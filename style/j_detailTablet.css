@@ -21,6 +21,10 @@
     text-align: left;
 }
 
+h2 {
+    font-family: 'Courgette', cursive;
+}
+
 #link span {
     margin-left: 10px;
     margin-right: 10px;
