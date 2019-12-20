@@ -85,17 +85,26 @@
 
 <!--   slide controller-->
     <script type="text/javascript">
+
+
     $(document).ready(function(){
-        $('.visual').slick({
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          autoplay: true,
-          autoplaySpeed: 3000,
-          speed:3000,
-          dot:true
-        });
+
+            $('.visual').slick({
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              autoplay: true,
+              autoplaySpeed: 3000,
+              speed:3000,
+              dot:true
+            });
 
 
+        /*$(window).resize(function(){
+
+            let i = $(window).width();
+                    console.log(i);
+
+         });*/
     });
  </script>
 <!--      slide 마지막단 -->
@@ -170,27 +179,15 @@
             </div>
         <script>
             $(document).ready(function(){
-                $('.p_w img').on('mouseenter',function(){
-                    $(this).parent().next().fadeIn(400);
+                $('.p_w a').on('mouseenter focusin ',function(){
+                    $(this).next().fadeIn(400);
 
                 });
 
-                $('.p_w img').on('focus',function(){
-                    $(this).parent().next().fadeIn(400);
 
-                });
+                $('.p_w a').on('mouseout focusout',function(){
+                    $(this).next().fadeOut(400);
 
-                $('.p_w img').on('mouseout',function(){
-                    $(this).parent().next().fadeOut(400);
-
-                });
-
-                let i = $('body').width();
-                $(window).resize(function(){
-                    if(i<768)
-                        {
-                            $('.model p').remove();
-                        }
                 });
 
 

@@ -41,7 +41,13 @@
 }
 .model{
     display: none;
+
 }
+
+.model p{
+    display: none;
+}
+
 .product{
             width: 100%; height:auto;
             margin: 0px auto;
