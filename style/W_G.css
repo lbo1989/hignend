@@ -16,6 +16,8 @@
             position: relative;
             top: 20px;
             display: none;
+            font-family: 'Average', serif;
+            font-weight: lighter;
         }
         #g_main img{
             background-color: black;
@@ -50,6 +52,12 @@
 
         hr{
             margin: 100px;
+        }
+        .deluxe{
+        /*    margin-top: 10%;*/
+            font-size: 30px;
+            font-family: 'Prata', serif;
+            font-family: 'Great Vibes', cursive;
         }
 
         /*product단*/

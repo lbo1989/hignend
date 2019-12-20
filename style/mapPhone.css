@@ -5,6 +5,7 @@
 }
 
 .main img {
+    margin-top: 70px;
     width: 100%;
 }
 
@@ -26,7 +27,8 @@
 
 h2 {
     margin: 10px auto;
-    font-size: 45px;
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .maps {
