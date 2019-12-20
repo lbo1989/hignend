@@ -1,5 +1,5 @@
 #g_main{
-    margin: 0px;
+      margin: 70px auto 0;
 }
 #g_main div{
     width: 100%; height: 354px;
@@ -14,6 +14,8 @@
     top: 5%;
     font-size: 200%;
     display: none;
+    font-family: 'Average', serif;
+    font-weight: lighter;
 }
 #g_main img{
     border: 4px double white;
@@ -36,6 +38,12 @@
 }
 .model{
     display: none;
+}
+.deluxe{
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: 'Prata', serif;
+    font-family: 'Great Vibes', cursive;
 }
 
 .product{
