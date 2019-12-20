@@ -61,12 +61,6 @@
 
     .bgtest3 {
         width: 100%;
-       /* height: 400px;
-        display: inline-block;
-        background-color: ;
-        position: relative;
-        z-index: 2;
-        bottom: 404px;*/
         display: none;
     }
 
@@ -139,8 +133,8 @@
 
         display: inline-block;
 
-        width: 50%;
-        height: 75px;
+        width: 75%;
+        height: 80px;
         border: 1px solid silver;
 
         background-color: antiquewhite;
@@ -148,8 +142,8 @@
 
     .instaPhoto .watch {
         display: inline-block;
-        width: 50%;
-        height: 75px;
+        width: 75%;
+        height: 80px;
         border: 1px solid silver;
         background-color: antiquewhite;
     }
