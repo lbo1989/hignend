@@ -23,8 +23,8 @@
         font-size: 3em;
         text-align: center;
         margin: 100px 0px 80px 0px;
-        font-family: 'Inria Serif', serif;
-        font-weight: lighter;
+      font-family: 'Cinzel Decorative', cursive;
+        font-weight: 500;
     }
 
     .cs-menubar p {
@@ -32,6 +32,7 @@
         font-size: 20px;
         margin-bottom: 70px;
         font-family: 'Inria Serif', serif;
+        font-weight: 500;
     }
 
 
@@ -47,7 +48,7 @@
 
 
     .bgtest {
-        height: 350px;
+        height: 250px;
     }
 
     .bgtest1 {
@@ -57,7 +58,7 @@
     .bgtest2 {
         position: relative;
         z-index: 1;
-        height: 400px;
+        height: 300px;
         width: 100%;
         display: inline-block;
     }
