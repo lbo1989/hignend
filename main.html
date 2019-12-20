@@ -8,17 +8,15 @@
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/hf.css" media="all and (min-width:1024px)">
     <link rel="stylesheet" href="style/hfTablet.css" media="all and (min-width:768px) and (max-width:1023px)">
-<!--     <link rel="stylesheet" href="style/hfTablet.css" media="all and (min-width:768px) and (max-width:1023px)">
-    <link rel="stylesheet" href="style/hfPhone.css" media="all and (min-width:320px) and (max-width:767px)">-->
-
+    <link rel="stylesheet" href="style/hfphone.css" media="all and (min-width:360px) and (max-width:767px)">
     <link rel="stylesheet" href="style/main.css" media="all and (min-width:1024px)">
     <link rel="stylesheet" href="style/mainTablet.css" media="all and (min-width:768px) and (max-width:1023px)">
     <link rel="stylesheet" href="style/mainPhone.css" media="all and (min-width:320px) and (max-width:767px)">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/jquery.adipoli.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inria+Serif&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,7 +26,8 @@
         </header>
         <div>
             <div class="main_img_box">
-                <!--<img src="img/main01.jpg" alt="메인이미지1">-->
+                <img src="img/main01.jpg" alt="메인이미지1" id="mainImg_table">
+
                 <div id="brandVisual">
                     <ul>
                         <li class="visual_0"><a href="#">배너이미지 1</a></li>
@@ -37,6 +36,7 @@
                     </ul>
                 </div>
                 <ul id="buttonList">
+
                     <li class="on"><a href="#">배너1</a></li>
                     <li><a href="#">배너2</a></li>
                     <li><a href="#">배너3</a></li>
@@ -61,7 +61,7 @@
                     <div class="newEvent">
                         <a href="#">
                            <div class="sample_image">
-                            <img src="img/event02.jpg" alt="event01" class="newEvent_img">
+                            <img src="img/event06.jpg" alt="event02" class="newEvent_img">
                             </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
@@ -72,7 +72,7 @@
                     <div class="newEvent">
                         <a href="#">
                            <div class="sample_image">
-                            <img src="img/event04.jpg" alt="event01" class="newEvent_img">
+                            <img src="img/event10.jpg" alt="event03" class="newEvent_img">
                             </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
@@ -85,7 +85,7 @@
                     <div class="newEvent newEventFir">
                         <a href="#">
                            <div class="sample_image">
-                            <img src="img/event01.jpg" alt="event02" class="newEvent_img">
+                            <img src="img/event16.jpg" alt="event04" class="newEvent_img">
                             </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
@@ -95,7 +95,7 @@
                     <div class="newEvent">
                         <a href="#">
                            <div class="sample_image">
-                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <img src="img/event17.jpg" alt="event05" class="newEvent_img">
                             </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
@@ -105,7 +105,7 @@
                     <div class="newEvent">
                         <a href="#">
                            <div class="sample_image">
-                            <img src="img/event01.jpg" alt="event01" class="newEvent_img">
+                            <img src="img/event18.jpg" alt="event06" class="newEvent_img">
                             </div>
                             <p class="newEvent_txt1">테마 | necklace</p>
                             <p class="newEvent_txt2">#2. Gift for Me</p>
@@ -199,16 +199,27 @@
             </div>
         </section>
         <section>
-            <h2>#Highend Product</h2>
+            <h2 class="hipro">#Highend Product</h2>
             <div class="main_pro">
                 <div class="main_pro_tit">
                     <ul class="main_pro_titul">
-                        <li class="main_pro_titli" id="ear">EARRING</li>
+                        <li class="main_pro_titli pro_first" id="ear">EARRING</li>
                         <li class="main_pro_titli" id="neck">NECLKLACE</li>
                         <li class="main_pro_titli" id="ring">RING</li>
                     </ul>
                 </div>
-                <div class="main_pro_imgbox" id="main_imgbox"></div>
+                <div class="main_pro_imgbox" id="main_imgbox">
+                    <div class="pro_imgbox">
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                    </div>
+                    <div class="pro_imgbox">
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                        <a href="#"><img src="img/main_pro03.png" class="banner_img"></a>
+                    </div>
+                </div>
             </div>
         </section>
         <!--footer영역-->

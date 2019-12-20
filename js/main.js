@@ -31,7 +31,8 @@ $(document).ready(function () {
     function timer() {
         setIntervalId = setInterval(function () {
             var n = current + 1;
-            if (n == visual.size()) {
+
+            if (n == visual.length) {
                 n = 0;
             }
             button.eq(n).trigger('click');
@@ -66,7 +67,7 @@ $(document).ready(function () {
             }
         });
         $('.main_pro_titli').css('background-color', 'white');
-        $(this).css('background-color', '#6BBAC9');
+        $(this).css('background-color', '#ececec');
     });
     $('#neck').click(function () {
         $.ajax({
@@ -77,7 +78,7 @@ $(document).ready(function () {
         });
 
         $('.main_pro_titli').css('background-color', 'white');
-        $(this).css('background-color', '#6BBAC9');
+        $(this).css('background-color', '#ececec');
     });
     $('#ring').click(function () {
         $.ajax({
@@ -88,7 +89,7 @@ $(document).ready(function () {
         });
 
         $('.main_pro_titli').css('background-color', 'white');
-        $(this).css('background-color', '#6BBAC9');
+        $(this).css('background-color', '#ececec');
     });
 
 });

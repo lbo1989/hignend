@@ -72,14 +72,14 @@
         width: 3%;
 
     }
-
-
+    .instaPhoto{
+        margin: 0 auto;
+    }
     .instaPhoto li {
         list-style: none;
         display: inline-block;
-        width: 13%;
-        margin-top: 3%;
-
+        width: 22%;
+        margin-top: 5%;
 
     }
 
@@ -90,20 +90,16 @@
     .instaPhoto .jw {
 
         display: inline-block;
-
-        width: 50%;
-        height: 40px;
+        width: 90%;
         border: 1px solid silver;
-
+        margin-right: 30px;
         background-color: antiquewhite;
     }
 
-    .instaPhoto .watch {
-        display: inline-block;
-        width: 50%;
-        height: 40px;
-        border: 1px solid silver;
-        background-color: antiquewhite;
+
+
+    .instaPhoto .watch-mb{
+        display: none;
     }
 
     .iconImg {
