@@ -27,12 +27,12 @@
 
 .storyUI{
 
-    margin-left: 20px;
+
 
     margin-bottom: 10%;
     text-align: center;
     width: 100%;
-    display: inline-block;
+    display: block;
 
     box-sizing: border-box;
 
@@ -40,9 +40,9 @@
 }
 .storyUI li{
     list-style: none;
-    display: inline-block;
+    display: block;
 
-    padding: 0% 50px 0% 50px;
+    padding: 0% 15px 0% 15px;
 
 }
 .storyUI li a{
@@ -52,7 +52,7 @@
     box-sizing: border-box;
 
 
-    width: 20%;
+    width: 30%;
 
 
 
@@ -133,19 +133,23 @@ a{
 }
 .snsIcon li{
     display: inline-block;
-    width: 100px;
+    width: 50px;
 
 }
 
 
 .instaPhoto li{
     list-style: none;
-    display: inline-block;
-    width: 200px;
+    display: block;
+    width: 150px;
     margin-top:5%;
-
+    margin-left: 27%;
 
 }
+.instaPhoto{
+       width: 360px;
+        margin: 0 auto;
+ }
 
 .msOver:hover{
     opacity: 0.7;
@@ -201,7 +205,7 @@ a{
 }
 
 #email{
-  width: 25%;
+  width: 50%;
   padding: 10px;
 
 }
@@ -209,13 +213,14 @@ a{
 .underline{
     text-decoration: underline;
     color:black;
+    padding:15%;
 }
 
 
 #subbtn{
     position: relative;
     padding: 15px 0px;
-    width: 10%;
+    width: 30%;
     top:30px;
     background-color: palevioletred;
     border: 1px solid palevioletred;
@@ -229,7 +234,7 @@ a{
 
 }
 .history{
-    width: 360px;
+    width: 360x;
     margin: 0px auto;
     padding: 0px;
 
@@ -282,7 +287,7 @@ a{
 
     }
 .wideImg{
-    display: inline-block;
+    display: block;
     margin: 0 auto;
     width: 100%;
 
@@ -292,16 +297,16 @@ a{
 
 .wideImg #juimg{
 
-    width: 400px;
-    margin-bottom: 20%;
-   margin-right: 6%;
+    width: 350px;
+    margin-bottom: 10%;
+
 }
 
 .wideImg #modelimg{
-    width: 500px;
+    width: 365px;
 
     margin-bottom: 10%;
-    margin-left: 5%;
+
     height: 550px;
 
 }

@@ -137,7 +137,6 @@ a{
 
 }
 
-
 .instaPhoto li{
     list-style: none;
     display: inline-block;
@@ -201,7 +200,7 @@ a{
 }
 
 #email{
-  width: 25%;
+  width: 50%;
   padding: 10px;
 
 }
@@ -215,7 +214,7 @@ a{
 #subbtn{
     position: relative;
     padding: 15px 0px;
-    width: 10%;
+    width: 20%;
     top:30px;
     background-color: palevioletred;
     border: 1px solid palevioletred;
