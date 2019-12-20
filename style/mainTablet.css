@@ -4,10 +4,15 @@
     height: 100%;
     z-index: 0;
 }
+
 .main_img_box>img{
     width: 100%;
 }
 #mainImg_table{
+    display: block;
+    margin-top: 70px;
+}
+#brandVisual, buttonList{
     display: none;
 }
 #brandVisual{
@@ -57,8 +62,6 @@ h2{
     font-size: 60px;
     color: #222;
     text-align: center;
-    font-family: 'Inria Serif', serif;
-    font-weight: lighter;
 }
 .newEvent_txt{
     margin: 10px 0px 20px;
@@ -66,7 +69,7 @@ h2{
     color:#222;
 }
 .newEvent_inner{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 }
 .newEvent_inner:nth-child(0){
@@ -75,7 +78,7 @@ h2{
 .newEvent{
     display: inline-block;
     width: 31%;
-    margin-left: 14px;
+    margin-left: 6px;
 
 }
 
@@ -105,7 +108,7 @@ h2{
     line-height: 24px;
 }
 .sample_image{
-    height: 158px;
+    height: 151px;
      overflow: hidden;
     border: 1px solid #ececec;
 }
@@ -133,7 +136,7 @@ h2{
 }
 /*Now*/
 .now_box{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 }
 
@@ -141,18 +144,17 @@ h2{
     padding: 30px 26px 30px;
     background-color: rgba(0,0,0,0.8);
 }
-
 .now_inner {
-  position: relative;
-  width: 23.8%;
-        height: 369px;
-    margin-left: 10px;
-cursor: pointer;
+    position: relative;
+    width: 33%;
+    height: 369px;
+    cursor: pointer;
     display: inline-block
 }
 .now_box_inner{
     width: 100%;
     margin-top: 20px;
+    text-align: center;
 }
 .now_image {
   display: block;
@@ -218,7 +220,6 @@ cursor: pointer;
     clear: both;
     margin: 0 auto;
     padding: 20px;
-
 }
 .mainIcon_li{
     display: inline-block;
@@ -226,11 +227,11 @@ cursor: pointer;
 
 /*product*/
 .main_pro{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
 }
 .main_pro_tit{
-    width: 100%;
+    width: 97.5%;
     margin: 20px 10px 0;
     cursor: pointer;
 }
@@ -239,7 +240,7 @@ cursor: pointer;
     width: 30.5%;
     padding: 20px 10px;
     text-align: center;
-    margin: 0 -4px;
+    margin: 0 -5px;
     border: 1px solid #ececec;
 }
 .main_pro_imgbox{
@@ -250,12 +251,10 @@ main_pro_imgbox{
     clear: both;
 }
 .banner_img{
-    width: 32.9%;
+    width: 31.9%;
     display: inline-block;
 }
 .pro_first{
     margin: 0 0px;
 }
-
-
 
