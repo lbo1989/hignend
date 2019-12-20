@@ -24,28 +24,33 @@
     text-align: left;
 }
 
+h2 {
+    font-family: 'Courgette', cursive;
+}
+
 #link span {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-#link, #link span a {
+#link,
+#link span a {
     color: #8A8A8A;
     font-size: 13px;
 }
 
-.line{
+.line {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 30%;
     border: 1px solid #8A8A8A;
 }
 
-.bx-wrapper{
+.bx-wrapper {
     min-width: 500px;
 }
 
-p{
+p {
     color: #8A8A8A;
 }
 
