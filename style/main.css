@@ -211,18 +211,6 @@ cursor: pointer;
     text-align: left;
     padding: 0px 0px 0px 15px;
 }
-.mainIcon{
-    text-align: center;
-}
-.mainIcon_box{
-    clear: both;
-    margin: 0 auto;
-    padding: 20px;
-
-}
-.mainIcon_li{
-    display: inline-block;
-}
 
 /*product*/
 .main_pro{

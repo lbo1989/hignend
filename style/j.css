@@ -43,11 +43,15 @@ div .j_linetop{
 
 .j_linetop h2{
     margin-bottom: 2%;
+    font-family: 'Pattaya', sans-serif;
     font-size: 35px;
 }
 
 .j_linetop h4{
     margin-bottom: 3%;
+    font-family: 'Pinyon Script', cursive;
+    letter-spacing: 1px;
+    font-size: 23px;
 }
 
 div .j_linebo{
