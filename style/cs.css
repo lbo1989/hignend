@@ -134,10 +134,8 @@
     .smalltitle {
         padding: 0;
         font-size: 2em;
-        font-weight: lighter;
+        font-weight: 300;
         margin: -100px 0 3%;
-       font-family: 'Mukta', sans-serif;
-
     }
 
     .snsIcon {
