@@ -47,7 +47,7 @@ li{
 
 }
 #gnb_j li{
-    float:left; font-size: 13px;
+    float:left; font-size: 13px; width: 20%;
     margin-bottom: 10%;
 }
 #gnb_j li a{
@@ -81,7 +81,7 @@ li{
 
 .list_tab{
 
-    width: 90%;
+    width: 100%;
 
     margin: 0 auto;
 }
