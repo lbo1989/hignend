@@ -10,7 +10,7 @@
 
 .sel li {
     display: inline-block;
-    border: 1px solid silver;
+    border: 1px solid #888888;
     width:  80px;
     margin: 0 auto;
     height: 30px;
@@ -41,14 +41,14 @@ h3 {
 
 .line {
     width: 60%;
-    border: 0.5px solid black;
+    border: 0.5px solid #888888;
     margin: 0 auto;
     margin-bottom: 15px;
 }
 
 h4{
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .map1 {
