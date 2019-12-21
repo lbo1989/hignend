@@ -80,16 +80,11 @@ li{
 
 }
 
-.qatitle{
-
-    margin-top: 3%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
+.pic-title{
+    font-size:44px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
 }
 .qat{
@@ -127,7 +122,7 @@ li{
 .bnimg{
     width: 100%;
     position: relative;
-
+    margin-top: 8%;
 
 }
 
@@ -141,11 +136,11 @@ li{
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 20px;
 
 
     color:#444;
-    margin-bottom: -3%;
+    margin-top: -3%;
 
 }
 
@@ -182,11 +177,10 @@ li{
 
 .list{
     display: table;
-    width: 100%;
+    width: 120%;
     box-sizing: border-box;
     border: none;
     text-align: center;
-
     padding: 5%;
     margin-bottom: -8%;
 }
@@ -200,7 +194,8 @@ li{
     box-sizing: border-box;
     border: 1px solid #e5e5e5;
     vertical-align: top;
-
+    background: snow;
+    left: -9%;
     position: relative;
     height: 136px;
 
@@ -278,9 +273,9 @@ p span{
 }
 
 .tell{
-    margin-top: -7%;
+    margin-top: -10%;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 28%;
 }
 
 .under ul li{
@@ -292,10 +287,82 @@ p span{
     font-size: 14px;
     color: #666;
 }
+.call{
+
+    margin-left: 5%;
+}
 
 .tell span{
 
     font-size: 36px;
     line-height: 52px;
     color: #a38348;
+}
+   .storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+    width: 30%;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+    a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+
+
+}
+
+.all_view{
+    width: 768px;
+    margin: 0 auto;
 }

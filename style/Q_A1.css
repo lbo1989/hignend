@@ -36,7 +36,7 @@ li{
 
     margin:0 auto;
     margin-top: 10%;
-
+    margin-bottom: 10%;
 
 
 }
@@ -90,6 +90,7 @@ li{
     width: 100%;
     padding-top: 2%;
 
+
 }
 
 
@@ -141,7 +142,7 @@ li{
 
     margin-bottom: 5%;
     text-align: center;
-    width: 1024px;
+    width: 100%;
     display: inline-block;
 
     box-sizing: border-box;
@@ -203,7 +204,7 @@ li{
 
     margin:0 auto;
     text-align: center;
-    width: 1024px;
+    width: 100%;
 
 }
 

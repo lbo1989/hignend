@@ -21,10 +21,12 @@ li{
     margin: 4% 0% 4% 0%;
 }
 .a_qa{
-    width: 95%;
+    width: 85%;
     border-top: 1px solid silver;
 
     margin:0 auto;
+         margin-top: 10%;
+    margin-bottom: 10%;
 }
 .a_qa ul li{
     border-bottom: 1px solid #A6A6A6;
@@ -77,20 +79,23 @@ li{
 }
 
 .subject:hover{
-    text-decoration: underline;
 
+        background: #f3f3f3;
 
 }
+
+
 
 .pic-title{
     font-size:44px;
     font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-    padding-top: 2%;
+    padding-top: 5%;
 
 }
 .qat{
-    height: 150px;
+    width: 768px;
+
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -109,10 +114,10 @@ li{
     padding-top: 10%;
 }
 .btntab{
-    position: relative;
+
 
     margin: 0 auto;
-    width: 100%;
+    width: 768px;
     text-align: center;
 
 }
@@ -120,14 +125,14 @@ li{
 
 
 .banner{
-    width: 1024px;
+    width: 768px;
     margin: 0 auto;
     padding: 0px;
 
 }
 .bnimg{
     width: 100%;
-
+    margin-top:8%;
 
 
 }
@@ -184,7 +189,7 @@ li{
 
 
 
-    margin-bottom: 5%;
+    margin-top: 5%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -226,6 +231,7 @@ li{
 
 }
 
+
 .active a{
     color:#eee;
 
@@ -242,6 +248,11 @@ li{
 
 }
 
+    .all_view{
+
+        width: 768px;
+        margin: 0 auto;
+    }
 
 
 

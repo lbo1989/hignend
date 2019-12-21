@@ -27,11 +27,13 @@ li{
     margin: 4% 0% 4% 0%;
 }
 .a_qa{
-    clear: both;
-    width: 95%;
+
+    width: 85%;
     border-top: 1px solid silver;
 
     margin:0 auto;
+     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
@@ -87,16 +89,17 @@ li{
 }
 
 .subject:hover{
-    text-decoration: underline;
 
+        background: #f3f3f3;
 
 }
 
+
 .pic-title{
-    font-size:40px;
+    font-size:26px;
     font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-    padding-top: 2%;
+    margin-top: 5%;
 
 }
 .qat{
@@ -111,7 +114,7 @@ li{
 }
 
 .section{
-    width: 100%;
+    width: 360px;
     padding-bottom: 30%;
 
 }
@@ -121,7 +124,7 @@ li{
 }
 .btntab{
 
-    display: block;
+
     margin: 0 auto;
     width: 100%;
     text-align: center;
@@ -131,14 +134,16 @@ li{
 
 
 .banner{
-    width: 100%;
+    width: 360px;
     margin: 0 auto;
     padding: 0px;
 
+
 }
 .bnimg{
-    width: 100%;
-    position: relative;
+    width: 360px;
+    margin-top: 20%;
+
 
 
 }
@@ -146,7 +151,7 @@ li{
 .opinion{
 
 
-
+    margin: 0 auto;
     margin-top: 5%;
     text-align: center;
     width: 100%;
@@ -154,15 +159,23 @@ li{
 }
 
 .inner{
-    width: 100%;
-    font-size: 14px;
-
+    width: 80%;
+    font-size: 18px;
+    margin: 0 auto;
 
     color:#444;
-    margin-bottom: -3%;
+    margin-bottom:10%;
+    margin-top: 10%;
 
 }
+.btntab{
 
+
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+
+}
 .btntab .on{
     color: #222222;
     text-decoration: underline;
@@ -201,15 +214,15 @@ li{
 }
 
 .all_view{
-    width: 100%;
+    width: 360px;
     margin:0 auto;
+    padding: 0%;
 
 }
 .storyUI{
 
 
-
-    margin-bottom: 5%;
+    margin-top: -20%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -219,11 +232,12 @@ li{
 
 }
 .storyUI li{
-    width: 160px;
+     width: 50%;
     list-style: none;
     display: inline-block;
     border: 1px solid silver;
-    padding:0.8%;
+    padding: 3%;
+    margin-bottom:1%;
 
 
 }
@@ -232,8 +246,7 @@ li{
     color:#232323;
     text-decoration: none;
     box-sizing: border-box;
-
-
+    font-size: 22px;
 
 
 

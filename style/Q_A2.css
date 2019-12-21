@@ -80,18 +80,15 @@ li{
 
 }
 
-.qatitle{
-
-    margin-top: 3%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
+.pic-title{
+    font-size:44px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
 }
+
+
 .qat{
     height: 150px;
     margin: 0 auto;
@@ -133,19 +130,19 @@ li{
 
 .opinion{
 
-    margin-top: 5%;
+    margin: 0 auto;
     text-align: center;
     width: 100%;
 
 }
 
 .inner{
-    width: 100%;
-    font-size: 16px;
-
+    width: 90%;
+    font-size: 24px;
+    margin: 0 auto;
 
     color:#444;
-    margin-bottom: -3%;
+
 
 }
 
@@ -200,7 +197,7 @@ li{
     box-sizing: border-box;
     border: 1px solid #e5e5e5;
     vertical-align: top;
-
+    background-color: snow;
     position: relative;
     height: 136px;
 
@@ -254,7 +251,7 @@ p span{
 
 .under{
     width: 100%;
-    margin: 10% auto;
+    margin: 0 auto;
 
 
     font-size: 14px;
@@ -266,8 +263,9 @@ p span{
 
 .fclear{
 
-    width: 1024px;
-    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 20%;
+    margin-top: 15%;
 }
 
 .under ul>li p{
@@ -275,12 +273,17 @@ p span{
     font-size: 16px;
     color:#222;
     font-weight: 600;
+
+}
+.call{
+    margin-left: 10%;
+
 }
 
 .tell{
-    margin-top: -7%;
+    margin-top: -8%;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 28%;
 }
 
 .under ul li{
@@ -291,6 +294,7 @@ p span{
 
     font-size: 14px;
     color: #666;
+
 }
 
 .tell span{
@@ -298,4 +302,73 @@ p span{
     font-size: 36px;
     line-height: 52px;
     color: #a38348;
+}
+   .storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+    width: 30%;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+    a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+
+
+}
+
+.all_view{
+    width: 1024px;
+    margin: 0 auto;
+
 }
