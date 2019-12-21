@@ -310,15 +310,15 @@ p span{
 }
 .bottom_inner{
 
+   width: 100%;
     margin: 0 auto;
-    width:100%;
 
 
 }
 
 
 .bottom_content{
-   text-align: center;
+
     padding-left: 15px;
     font-size: 14px;
     line-height: 20px;
@@ -365,7 +365,7 @@ p span{
     width: 1024px;
     margin: 0 auto;
 }
-  .storyUI{
+ .storyUI{
 
 
 
@@ -399,7 +399,7 @@ p span{
 
 
 }
-    a{
+a{
     cursor: pointer;
 
 }
@@ -415,5 +415,19 @@ p span{
     color:#eee;
 
 }
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+
+
+}
+
 
 

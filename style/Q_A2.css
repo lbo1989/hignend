@@ -107,6 +107,7 @@ li{
 
     padding-top: 80px;
 }
+
 .btntab{
   margin: 0 auto;
     width: 100%;
@@ -337,7 +338,7 @@ p span{
 
 
 }
-    a{
+a{
     cursor: pointer;
 
 }
