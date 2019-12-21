@@ -176,18 +176,20 @@ li{
     margin: 0 auto;
     padding: 0px;
 
-
+background-color: snow;
 }
 
 .list{
     display: table;
-    width: 100%;
+    width:100%;
     box-sizing: border-box;
     border: none;
     text-align: center;
-   margin-left: -10%;
+    margin-left: -10%;
     padding: 10%;
-    margin-bottom: -5%;
+
+
+
 }
 
 .list li{
@@ -211,8 +213,8 @@ li{
     text-align: center;
     position: relative;
 
-    width: 10%;
-    background-color: snow;
+    width: 35%;
+
     vertical-align: middle;
     font-size: 16px;
     line-height: 22px;
