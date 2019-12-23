@@ -141,7 +141,7 @@ li{
     width: 90%;
     font-size: 24px;
     margin: 0 auto;
-
+    font-family: 'Noto Sans KR', sans-serif;
     color:#444;
 
 
@@ -169,7 +169,7 @@ li{
     width: 100%;
     margin: 0 auto;
     padding: 0px;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -249,7 +249,7 @@ p span{
     width: 100%;
     margin: 0 auto;
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 14px;
     line-height: 26px;
 
@@ -301,7 +301,7 @@ p span{
 }
    .storyUI{
 
-
+    font-family: 'Noto Sans KR', sans-serif;
 
     margin-bottom: 5%;
     text-align: center;
