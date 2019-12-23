@@ -159,12 +159,7 @@ li{
 
 }
 
-.btntab a:nth-child(1):hover{
-    color:#888888;
-}
-.btntab a:nth-child(2):hover{
-    color:#888888;
-}
+
 
 .center{
     margin: 0 auto;
@@ -318,7 +313,7 @@ p span{
 
 .bottom_content{
 
-    padding-left:15px;
+
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 2%;
@@ -438,6 +433,11 @@ p span{
 
     width: 768px;
     margin: 0 auto;
+}
+
+#wrap{
+    display: none;
+
 }
 
 

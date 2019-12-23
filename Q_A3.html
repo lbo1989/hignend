@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0 minimum-scale=1.0">
-    <title>Document</title>
+    <title>[HIGHEND Q&amp;A]</title>
     <link rel="stylesheet" href="style/hf.css">
      <link rel="stylesheet" href="style/hfTablet.css" media="screen and (max-width:1023px) and (min-width:768px)">
     <link rel="stylesheet" href="style/hfphone.css" media="screen and (max-width:767px) and (min-width:360px)">
@@ -12,10 +12,16 @@
      <link rel="stylesheet" href="style/Q_A3_table.css" media="screen and (max-width:1023px) and (min-width:768px)">
     <link rel="stylesheet" href="style/Q_A3_mobile.css" media="screen and (max-width:767px) and (min-width:360px)">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel+Decorative|Inria+Serif|Playfair+Display&display=swap" rel="stylesheet">
+    <link href="style/login.css" rel="stylesheet">
+     <link href="style/loginPhone.css" rel="stylesheet">
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
 
     <script src="https://kit.fontawesome.com/040b9b4fcf.js" crossorigin="anonymous"></script>
+    <script src="js/loginout.js"></script>
+    <script src="js/login.js"></script>
 
 </head>
 <body>
@@ -38,7 +44,7 @@
                 <ul class="storyUI">
                 <li ><a href="Q_A1.html">자주하는 질문</a></li>
                 <li><a href="Q_A2.html">상담실 안내</a></li>
-                <li  class="active"><a href="#">고객 의견 작성</a></li>
+                <li  class="active"><a href="Q_A3.html">고객 의견 작성</a></li>
                 </ul>
             </div>
             <div class="opinion">
@@ -59,7 +65,40 @@
                <button id="btn" value="top">작성하기</button>
 
            </div>
-            <script src="js/showlogin.js"></script>
+            <div id="wrap">
+       <div class="loginBox">
+            <p class="loginLogo"><a href="main.html"><img src="img/logo.png" class="loginLogoImg" alt="로그인1"></a></p>
+            <div class="login_inputBox">
+                <form class="login_inputInner" name="login">
+                   <ul>
+                       <li>
+                          <label for="login_id">아이디</label>
+                           <input type="text" id="login_id" class="login_input" name="login_id" placeholder="아이디" autofocus required>
+                       </li>
+                       <li>
+                          <label for="login_pw">비밀번호</label>
+                           <input type="password" id="login_pw" class="login_input"name="login_pw" placeholder="비밀번호" required>
+                       </li>
+                       <li>
+                         <input type="button" id="login_btn" class="login_btn1" name="login" value="로그인" >
+                       </li>
+                       <li>
+                          <input type="checkbox" name="login_keep" id="loginkeep">
+                        <label for="login_keep" class="login_keep_chek">로그인 상태유지</label>
+                       </li>
+                   </ul>
+                </form>
+            </div>
+            <div class="login_footer">
+                <ul>
+                    <li class="login_footTxt"><a href="#">아이디찾기   |</a></li>
+                    <li class="login_footTxt"><a href="#">비밀번호찾기   |</a></li>
+                    <li class="login_footTxt"><a href="join.html">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 
 
             <div class="bottom_inner">
