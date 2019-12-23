@@ -12,16 +12,15 @@
    display: inline-block;
 }
 .menuIcon.menuIcon_menu{
-    width: 10%;
+    width: 2%;
 }
 .menuIcon.menuIcon_logo{
-    width: 78%;
+    width: 94%;
     text-align: center;
 }
 .menuIcon.menuIcon_login{
-    width: 10%;
+    width: 2%;
     text-align: right;
-
 }
 .menuIcon_menu_img{
     width: 20px;
@@ -67,7 +66,7 @@
 }
 #tlogo a img{
     width: 200px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 20px;
 }
 header {
