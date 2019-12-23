@@ -112,10 +112,11 @@
     }
 
     .bgsubtitle {
-        font-size: 18px;
+        font-size: 19px;
         text-align: right;
         margin-right: 70px;
         color : white;
+        font-family: 'Noto Sans KR', sans-serif;
     }
 
 

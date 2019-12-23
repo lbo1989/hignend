@@ -111,6 +111,7 @@ li{
     list-style:none;
 }
 .subject{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 12px;
     font-weight: 200;
     padding-left: 7%;
@@ -120,6 +121,7 @@ li{
     background-color: #f3f3f3;
 }
 .content{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     font-weight: 300;
     padding-left: 5%;
