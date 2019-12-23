@@ -140,7 +140,7 @@ li{
 
     color:#444;
 
-
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .btntab .on{
@@ -307,7 +307,7 @@ p span{
 
   margin: 0 auto;
     width:100%;
-
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 
@@ -357,7 +357,7 @@ p span{
 .storyUI{
 
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 5%;
     text-align: center;
     width: 100%;

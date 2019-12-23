@@ -37,7 +37,7 @@ li{
     margin:0 auto;
     margin-top: 10%;
     margin-bottom: 10%;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -139,7 +139,7 @@ li{
     .storyUI{
 
 
-
+      font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 5%;
     text-align: center;
     width: 100%;
@@ -150,6 +150,7 @@ li{
 
 }
 .storyUI li{
+
     width: 30%;
     list-style: none;
     display: inline-block;
@@ -211,7 +212,7 @@ li{
 .inner{
     width: 100%;
     font-size: 24px;
-
+      font-family: 'Noto Sans KR', sans-serif;
 
     color:#444;
     margin-bottom: -5%;

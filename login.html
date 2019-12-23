@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HIGHEND login</title>
+    <title>HIGH - END</title>
     <meta name="viewport" content="width=divice-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/login.css">
     <link rel="stylesheet" href="style/loginPhone.css" media="all and (min-width:320px) and (max-width:767px)">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
     <div id="wrap">
        <div class="loginBox">
             <p class="loginLogo"><a href="main.html"><img src="img/logo.png" class="loginLogoImg"></a></p>
             <div class="login_inputBox">
-                <form class="login_inputInner" name="login">
+                <form class="login_inputInner" name="login" action="main.html" onsubmit="return validate();" method="get" enctype="text/plain">
                    <ul>
                        <li>
                           <label for="login_id">아이디</label>
@@ -25,7 +26,7 @@
                            <input type="password" id="login_pw" class="login_input"name="login_pw" placeholder="비밀번호" required>
                        </li>
                        <li>
-                         <input type="button" id="login_btn" class="login_btn1" name="login" value="로그인" >
+                         <input type="submit" id="login_btn" class="login_btn1" name="login" value="로그인">
                        </li>
                        <li>
                           <input type="checkbox" name="login_keep" id="loginkeep">
@@ -43,5 +44,6 @@
             </div>
         </div>
     </div>
+    <script src="js/login.js"></script>
 </body>
 </html>

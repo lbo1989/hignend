@@ -22,7 +22,7 @@ li{
 .a_qa{
     width: 60%;
     border-top: 1px solid silver;
-
+    font-family: 'Noto Sans KR', sans-serif;
     margin: 0 auto;
     margin-bottom: 5%;
 }
@@ -138,7 +138,7 @@ li{
     width: 100%;
     font-size: 24px;
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     color:#444;
 
 
@@ -165,7 +165,7 @@ li{
 .center{
     margin: 0 auto;
     padding: 0px;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -239,6 +239,7 @@ p span{
 }
 
 .under{
+    font-family: 'Noto Sans KR', sans-serif;
     width: 1024px;
     margin-top: 10%;
     margin-left: 18%;
@@ -307,7 +308,7 @@ p span{
 
    width: 100%;
     margin: 0 auto;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -364,7 +365,7 @@ p span{
  .storyUI{
 
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 5%;
     text-align: center;
     width: 100%;
