@@ -51,6 +51,11 @@
             color: white;
         }
 
+        .model p{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+
         hr{
             margin: 100px;
         }
