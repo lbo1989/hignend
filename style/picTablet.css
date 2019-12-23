@@ -57,8 +57,9 @@
     left: 30px;
     z-index: 2;
     color : #fff;
-    font-size: 10px;
+    font-size: 19px;
     transition: all. 35s;
+    font-family: 'Playfair Display';
 }
 
 .gallerylist ul > li > a .screen img{
