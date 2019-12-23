@@ -292,7 +292,8 @@ p span{
 .top_btn{
 
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 }
 
@@ -319,6 +320,7 @@ p span{
     box-sizing: border-box;
    margin: 0 auto;
 
+
 }
 
 
@@ -329,6 +331,7 @@ p span{
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 2%;
+
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
