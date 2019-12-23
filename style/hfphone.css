@@ -85,7 +85,12 @@ header {
 .menuT_t > a{
     color: white;
 }
-
+.menuimgIcon{
+    color: #222;
+}
+.loginIcon{
+    color: #b9b9b9;
+}
 /*footer*/
 footer{
     position: relative;
