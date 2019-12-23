@@ -8,6 +8,7 @@
  }
 
 .storyhead{
+
     height: 100px;
     width: 100%;
     margin: 0 auto;
@@ -27,7 +28,7 @@
 
 .storyUI{
 
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: center;
     width: 100%;
     display: inline-block;
@@ -87,17 +88,10 @@ a{
 
 
 
-.htit1{
-
-
+.pic-title{
     font-size:27px;
-
-    font-weight: 200;
-    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
     width: 100%;
-
-
-
 
 }
 
@@ -185,7 +179,7 @@ a{
     margin-top:9%;
     padding: 70px 0px;
     text-align: center;
-    background-color: silver;
+    background-color: #f3f3f3;
 
 
 }
@@ -245,22 +239,21 @@ a{
 .hsimg img{
     width: 40%;
 
-    position: relative;
-    left: 3%;
+
 
 }
 .text{
 
     width: 768px;
-    position: relative;
-    margin-top: -42%;
-    margin-left: 25%;
+    margin: 0 auto;
+
+
     text-align: center;
 
 }
 
 .logoimg1 img{
-    width: 90%;
+    width: 100%;
 
 }
 
@@ -288,20 +281,31 @@ a{
 
 }
 
+.wideImg #modelimg2{
 
+     display: none;
+
+    }
+.wideImg #modelimg3{
+      display: none;
+
+    }
 
 .wideImg #modelimg{
-    width: 100%;
-
+   width: 90%;
+    margin-left: 3%;
     margin-bottom: 10%;
-    margin-left: 18%;
+    margin-top: 5%;
+
+
+
 
 
 }
 
 .introWrap{
     width: 100%;
-    margin-bottom: 0% auto;
+    margin:0 auto;
     padding: 0px;
 }
 .textWrap{

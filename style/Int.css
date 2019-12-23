@@ -58,6 +58,7 @@
 
 
 
+
 }
 
 a{
@@ -89,20 +90,14 @@ a{
 }
 
 
-
-.htit1{
-
-
+.pic-title{
     font-size:27px;
-
-    font-weight: 200;
-    text-transform: capitalize;
+    font-family: 'Cinzel Decorative', cursive;
     width: 100%;
 
-
-
-
 }
+
+
 
 
 
@@ -129,46 +124,46 @@ a{
 
 .snsIcon{
 
-    margin-top: 3%;
-    list-style:none;
+   margin-top: 2%;
+        list-style: none;
 
 }
 .snsIcon li{
-    display: inline-block;
-    width: 100px;
+   display: inline-block;
+        width: 3%;
 
 }
 
 
 .instaPhoto li{
     list-style: none;
-    display: inline-block;
-    width: 200px;
-    margin-top:5%;
-
+        display: inline-block;
+        width:15%;
+        margin-top: 3%;
 
 }
 
-.msOver:hover{
-    opacity: 0.7;
-}
+
 
 .instaPhoto .jw{
 
     display: inline-block;
 
-    width: 70%;
-    height: 100px;
-    border: 1px solid silver;
+        width: 70%;
+        height: 100px;
+        border: 1px solid silver;
 
-     background-color: antiquewhite;
+        background-color: antiquewhite;
 }
 .instaPhoto .watch{
-    display: inline-block;
-    width:70%;
-    height: 100px;
-    border: 1px solid silver;
-     background-color: antiquewhite;
+   display: inline-block;
+        width: 70%;
+        height: 100px;
+        border: 1px solid silver;
+        background-color: antiquewhite;
+}
+.msOver:hover{
+    opacity: 0.7;
 }
 
 .subWrap{
@@ -179,7 +174,7 @@ a{
 
 .twhite{
     width: 100%;
-    color:#232323 !important;
+    color:#232323!important;
 
 }
 .subscribe{
@@ -189,7 +184,7 @@ a{
     margin-top:9%;
     padding: 70px 0px;
     text-align: center;
-    background-color: silver;
+    background-color: #f3f3f3;
 
 
 }
@@ -273,8 +268,8 @@ a{
 
 }
 
-.iconImg{
-    margin-top: 5%;
+.iconImg {
+        margin-top:10%;
     }
 .news{
     width:400px;
@@ -291,12 +286,21 @@ a{
 
 
 }
+.wideImg #modelimg2{
+
+    display: none;
+
+ }
+    .wideImg #modelimg3{
+
+        display: none;
+    }
 
 
 
 .wideImg #modelimg{
-    width: 100%;
-
+    width: 90%;
+    margin-left: 3%;
     margin-bottom: 10%;
     margin-top: 5%;
 

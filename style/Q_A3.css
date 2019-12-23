@@ -80,16 +80,11 @@ li{
 
 }
 
-.qatitle{
-
-    margin-top: 3%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
+.pic-title{
+    font-size:44px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
 }
 .qat{
@@ -291,13 +286,14 @@ p span{
 
 .top_btn{
 
+   margin: 0 auto;
+    width:100%;
     text-align: center;
-    margin-top: 7%;
-    margin-left: -2%;
 }
 
 #btn{
-
+    margin-top: 7%;
+    margin-bottom: 7%;
     padding: 15px 0px;
     width: 10%;
 
@@ -313,17 +309,16 @@ p span{
 
 }
 .bottom_inner{
-    margin-left:17%;
-    padding: 50px 120px;
-    border: 1px solid #e2e2e2;
-    box-sizing: border-box;
-    margin-top:5%;
+
+   width: 100%;
+    margin: 0 auto;
+
 
 }
 
 
 .bottom_content{
-    position: relative;
+
     padding-left: 15px;
     font-size: 14px;
     line-height: 20px;
@@ -338,7 +333,7 @@ p span{
     font-size: 20px;
     margin-bottom: 5%;
     font-weight: 600;
-    margin-left:-28%;
+
 
 }
 
@@ -363,6 +358,74 @@ p span{
 .other_link:hover{
 
     opacity: 0.7;
+
+}
+.all_view{
+
+    width: 1024px;
+    margin: 0 auto;
+}
+ .storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+    width: 30%;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+
 
 }
 

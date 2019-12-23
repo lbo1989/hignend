@@ -14,6 +14,7 @@ li{
 
 
 
+
 .subject{
     font-size: 15px;
     font-weight: 200;
@@ -30,11 +31,12 @@ li{
 
 }
 .a_qa{
-    width: 60%;
+    width: 85%;
     border-top: 1px solid silver;
 
     margin:0 auto;
-    margin-bottom: -10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 
 
 }
@@ -59,24 +61,7 @@ li{
     display:block;padding:10px 0;text-align:center;border-right:1px solid #A6A6A6; border-bottom:2px solid #A6A6A6;border-left:1px solid #A6A6A6;
     border-top: 2px solid #A6A6A6;
 }
-#gnb_j li a:hover{
-    color: hotpink;
-}
-#gnb_j li a.on{
-    border-bottom:4px solid #333;
-}
-#m1 h2{
-    margin-top: 15%
-}
-#m2 h2{
-    margin-top: 15%
-}
-#m3 h2{
-    margin-top: 15%
-}
-#m4 h2{
-    margin-top: 15%
-}
+
 .faq_area{
     width: 100%;
     margin: 0 auto;
@@ -99,20 +84,19 @@ li{
 
 }
 
+.pic-title{
+    font-size:44px;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 100%;
+    padding-top: 2%;
 
-
-.qatitle{
-
-    margin-top: 4%;
-    padding-top: 10px;
-    font-size: 44px;
-    text-align: center;
-    font-family: 'SDMyeongjo', sans-serif;
-    font-weight: 500;
-
-    line-height: 1;
 
 }
+
+
+
+
+
 .qat{
     height: 150px;
     margin: 0 auto;
@@ -125,7 +109,7 @@ li{
 
 .section{
     width: 100%;
-    padding-bottom: 30%;
+    padding-bottom: 15%;
 
 }
 
@@ -152,12 +136,73 @@ li{
 
 
 }
+    .storyUI{
+
+
+
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+    box-sizing: border-box;
+
+
+}
+.storyUI li{
+    width: 30%;
+    list-style: none;
+    display: inline-block;
+    border: 1px solid silver;
+    padding: 1%;
+
+
+}
+.storyUI li a{
+
+    color:#232323;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+
+
+
+
+}
+    a{
+    cursor: pointer;
+
+}
+
+.active{
+
+    background-color: #6BBAC9;
+
+
+}
+
+.active a{
+    color:#eee;
+
+}
+
+
+.storyUI li:hover{
+
+    background-color: #DAD9FF;
+
+}
+.active a:hover{
+    color:#232323;
+
+}
 
 .opinion{
 
 
 
-    margin-top: 5%;
+    margin:0 auto;
     text-align: center;
     width: 100%;
 
@@ -165,7 +210,7 @@ li{
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 24px;
 
 
     color:#444;

@@ -5,33 +5,41 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0 minimum-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/hf.css">
+     <link rel="stylesheet" href="style/hfTablet.css" media="screen and (max-width:1023px) and (min-width:768px)">
+    <link rel="stylesheet" href="style/hfphone.css" media="screen and (max-width:767px) and (min-width:360px)">
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/Q_A3.css" media="screen and (min-width:1024px)">
      <link rel="stylesheet" href="style/Q_A3_table.css" media="screen and (max-width:1023px) and (min-width:768px)">
     <link rel="stylesheet" href="style/Q_A3_mobile.css" media="screen and (max-width:767px) and (min-width:360px)">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Cinzel+Decorative|Inria+Serif|Playfair+Display&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/common.js"></script>
+
+    <script src="https://kit.fontawesome.com/040b9b4fcf.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-    <div id="wrap">
+
         <header id="header">
 
         </header>
+        <div class="all_view">
          <div class="banner">
              <img class="bnimg" src="img/j_img/a_s/afterserviceimg.PNG" alt="afterservice">
 
          </div>
 
-        <div class="section">
+
              <div class="qat">
-             <h2 class=qatitle>고객 의견</h2>
+             <h2 class="pic-title">customer opinion</h2>
              </div>
             <div class="btntab">
-                <a href="Q_A1.html" class="block" >자주하는 질문</a>
-                <a href="Q_A2.html" class="block">상담실 안내</a>
-                <a href="#" class="on">고객 의견 작성</a>
+                <ul class="storyUI">
+                <li ><a href="Q_A1.html">자주하는 질문</a></li>
+                <li><a href="Q_A2.html">상담실 안내</a></li>
+                <li  class="active"><a href="#">고객 의견 작성</a></li>
+                </ul>
             </div>
             <div class="opinion">
                 <div class="inner">
@@ -50,8 +58,9 @@
 
                <button id="btn" value="top">작성하기</button>
 
-
            </div>
+            <script src="js/showlogin.js"></script>
+
 
             <div class="bottom_inner">
                <div class="bottom_title">유의사항</div>
@@ -79,7 +88,7 @@
             </div>
 
 
-        </div>
+             </div>
 
 
 
@@ -93,7 +102,7 @@
 
        </footer>
 
-    </div>
+
 
 </body>
 </html>
