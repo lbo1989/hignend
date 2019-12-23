@@ -168,12 +168,7 @@ li{
 
 }
 
-.btntab a:nth-child(1):hover{
-    color:#888888;
-}
-.btntab a:nth-child(2):hover{
-    color:#888888;
-}
+
 
 .center{
     margin: 0 auto;
@@ -436,6 +431,11 @@ p span{
     width: 360px;
     margin: 0 auto;
 
+}
+
+#wrap{
+
+    display: none;
 }
 
 

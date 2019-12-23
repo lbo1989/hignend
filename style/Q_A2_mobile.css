@@ -164,12 +164,7 @@ li{
 
 }
 
-.btntab a:nth-child(1):hover{
-    color:#888888;
-}
-.btntab a:nth-child(3):hover{
-    color:#888888;
-}
+
 
 .center{
     width: 100%;

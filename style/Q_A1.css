@@ -234,12 +234,6 @@ li{
 
 }
 
-.btntab a:nth-child(2):hover{
-    color:#888888;
-}
-.btntab a:nth-child(3):hover{
-    color:#888888;
-}
 
 .content p{
     width: 100%;

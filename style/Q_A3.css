@@ -129,18 +129,18 @@ li{
 
 .opinion{
 
-    margin-top: 5%;
+    margin: 0 auto;
     text-align: center;
     width: 100%;
 }
 
 .inner{
     width: 100%;
-    font-size: 16px;
+    font-size: 24px;
 
 
     color:#444;
-    margin-bottom: -3%;
+
 
 }
 
@@ -160,12 +160,7 @@ li{
 
 }
 
-.btntab a:nth-child(1):hover{
-    color:#888888;
-}
-.btntab a:nth-child(2):hover{
-    color:#888888;
-}
+
 
 .center{
     margin: 0 auto;
