@@ -326,8 +326,9 @@ p span{
 
 
 .bottom_content{
-    position: relative;
-    padding-left: 10px;
+
+    width: 100%;
+
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 2%;
