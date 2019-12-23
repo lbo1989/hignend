@@ -1,6 +1,5 @@
 $(document).ready(function () {
     let width = $('body').width();
-    console.log(width);
     if(width <1024){
         $('#link').html("<br>");
     }
@@ -13,4 +12,8 @@ $(document).ready(function () {
             slideWidth: 500
         });
     }
+
+    $('input[type=button]').click(function(){
+        alert('로그인이 필요합니다');
+    });
 });
