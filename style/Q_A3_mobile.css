@@ -20,6 +20,7 @@ li{
     margin: 4% 0% 4% 0%;
 }
 .a_qa{
+    font-family: 'Noto Sans KR', sans-serif;
     width: 60%;
     border-top: 1px solid silver;
 
@@ -140,7 +141,7 @@ li{
     width: 100%;
     font-size: 16px;
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     color:#444;
     margin-bottom: -3%;
 
@@ -173,7 +174,7 @@ li{
 .center{
     margin: 0 auto;
     padding: 0px;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -254,6 +255,7 @@ p span{
     font-size: 14px;
     line-height: 26px;
     background-color: #f6f6f6;
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 
@@ -311,7 +313,7 @@ p span{
 
 }
 .bottom_inner{
-
+    font-family: 'Noto Sans KR', sans-serif;
     width: 100%;
     border: 1px solid #e2e2e2;
     box-sizing: border-box;
@@ -368,7 +370,7 @@ p span{
 
 }
 .storyUI{
-
+    font-family: 'Noto Sans KR', sans-serif;
 
     margin-top: -20%;
     text-align: center;
@@ -376,7 +378,7 @@ p span{
     display: inline-block;
 
     box-sizing: border-box;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
 }
 .storyUI li{

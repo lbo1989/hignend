@@ -23,7 +23,7 @@ li{
 .a_qa{
     width: 85%;
     border-top: 1px solid silver;
-
+    font-family: 'Noto Sans KR', sans-serif;
     margin:0 auto;
          margin-top: 10%;
     margin-bottom: 10%;
@@ -150,7 +150,7 @@ li{
 .inner{
     width: 100%;
     font-size: 20px;
-
+    font-family: 'Noto Sans KR', sans-serif;
 
     color:#444;
     margin-top:10%;
@@ -188,7 +188,7 @@ li{
 .storyUI{
 
 
-
+    font-family: 'Noto Sans KR', sans-serif;
     margin-top: 5%;
     text-align: center;
     width: 100%;
