@@ -98,6 +98,7 @@ li{
 }
 
 .subject{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     font-weight: 200;
     padding-left: 7%;
@@ -107,6 +108,7 @@ li{
     background-color: #f3f3f3;
 }
 .content{
+    font-family: 'Noto Sans KR', sans-serif;
     font-size: 15px;
     font-weight: 300;
     padding-left: 5%;
@@ -142,6 +144,7 @@ li{
     border-bottom:4px solid #333;
 }
 #m1 h2{
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
     color: #222;
     width: 100%;
@@ -149,6 +152,7 @@ li{
     margin-top: 15%
 }
 #m2 h2{
+    font-family: 'Noto Sans KR', sans-serif;
      text-align: center;
     color: #222;
     width: 100%;
@@ -156,6 +160,7 @@ li{
     margin-bottom: 5%;
 }
 #m3 h2{
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
     color: #222;
     width: 100%;
@@ -163,6 +168,7 @@ li{
     margin-bottom: 5%;
 }
 #m4 h2{
+    font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
     color: #222;
     width: 100%;
